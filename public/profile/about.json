@@ -1,5 +1,4 @@
 {
-    "about": " This is where you can describe about **yourself**. The more you describe about yourself, the better it is!\n\n\nExtra Information about you, like hobbies and your goals.\nExample Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs.",
-    "imageSource": "images/about/profile.png"
-    
+  "about": " Hello! I am **Phani Sai Ram Munipalli**, a Developer, Designer & an Engineer from India. Experienced Software Development Professional with more than 3.5 years of journey with IBM & Walmart. \n\nMy contribution to technology involves application development & enhancement, service delivery, primarily in areas of Java 8, J2EE, Cloud Platforms, Web App Development, React, Microservices, Enterprise Integration Patterns, DevOps, Test Driven Development(TDD), and Code Security Analysis.\n\nI love to research, design and build the technology & I write articles to share stories with people. I am passionate about the evolution of technology from centuries. My long-standing goal is to utilize contemporary technology in finding solutions to bring equality in the living conditions of people.",
+  "imageSource": "images/about/phani_about1.png"
 }
