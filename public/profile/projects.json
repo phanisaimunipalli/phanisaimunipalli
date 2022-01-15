@@ -88,18 +88,6 @@
       ]
     },
     {
-      "image": "images/projects/portfolio-poster.png",
-      "title": "Dev Portfolio",
-      "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-      "links": [
-        {
-          "text": "GitHub",
-          "href": "https://github.com/phanisaimunipalli/phanisaimunipalli"
-        }
-      ],
-      "tags": ["React", "Portfolio", "JavaScript"]
-    },
-    {
       "image": "images/projects/cover.png",
       "title": "The Webzine (e-Magazine)",
       "bodyText": "An Online Magazine is a web app made using **Web Technologies** for **NRI Institute of Technology** Students. Students can checkout the Webzine to find latest information about the instituion and showcase their special talents with weekly competitions held online.\n - Added User authentication using **OAuth**.\n - Deployed on **000WebHost** using **FileZilla**.",
@@ -151,6 +139,18 @@
         }
       ],
       "tags": ["React", "Vue", "Heroku", "Postgres SQL", "Prisma"]
+    },
+    {
+      "image": "images/projects/portfolio-poster.png",
+      "title": "Dev Portfolio",
+      "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/phanisaimunipalli/phanisaimunipalli"
+        }
+      ],
+      "tags": ["React", "Portfolio", "JavaScript"]
     }
   ]
 }

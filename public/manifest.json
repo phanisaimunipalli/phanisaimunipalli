@@ -1,9 +1,9 @@
 {
-  "short_name": "Mayank Agarwal",
-  "name": "Mayank Agarwal - Portfolio",
+  "short_name": "Phani Sai Ram Munipalli",
+  "name": "Phani Sai Ram - Portfolio",
   "icons": [
     {
-      "src": "images/logo.png",
+      "src": "images/about/phaniicon.png",
       "type": "image/png",
       "sizes": "425x225"
     }

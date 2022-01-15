@@ -34,8 +34,13 @@
       "href": "/projects"
     },
     {
+      "title": "Blog",
+      "href": "https://medium.com/cloud9writings",
+      "type": "link"
+    },
+    {
       "title": "Resume",
-      "href": "",
+      "href": "/pdfs/PhaniSaiRam_Munipalli_CV.pdf",
       "type": "link"
     }
   ]

@@ -5,12 +5,12 @@
       "href": "https://linkedin.com/in/iamphanisairam"
     },
     {
-      "network": "github",
-      "href": "https://github.com/phanisaimunipalli"
-    },
-    {
       "network": "email",
       "href": "mailto:phanisaimunipalli@gmail.com"
+    },
+    {
+      "network": "medium",
+      "href": "https://medium.com/cloud9writings"
     }
   ]
 }
