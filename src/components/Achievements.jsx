@@ -9,15 +9,14 @@ import Header from "./Header";
 import FallbackSpinner from "./FallbackSpinner";
 import "../css/education.css";
 
-function Education(props) {
+function Achievements(props) {
   const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
   const [width, setWidth] = useState("50vw");
   const [mode, setMode] = useState("VERTICAL_ALTERNATING");
-
   useEffect(() => {
-    fetch(endpoints.education, {
+    fetch(endpoints.achievements, {
       method: "GET",
     })
       .then((res) => res.json())
@@ -44,14 +43,14 @@ function Education(props) {
       <Header title={header} />
       {data ? (
         <Fade>
-          <div style={{ width }} className="section-content-container">
+          <div style={{ width: "100%" }} className="section-content-container">
             <Container>
               <Chrono
                 hideControls
                 allowDynamicUpdate
                 useReadMore={false}
-                items={data.education}
-                cardHeight={250}
+                items={data.achievements}
+                cardHeight={150}
                 mode={mode}
                 theme={{
                   primary: theme.accentColor,
@@ -62,12 +61,12 @@ function Education(props) {
                 }}
               >
                 <div className="chrono-icons">
-                  {data.education.map((education) =>
-                    education.icon ? (
+                  {data.achievements.map((achievement) =>
+                    achievement.icon ? (
                       <img
-                        key={education.icon.src}
-                        src={education.icon.src}
-                        alt={education.icon.alt}
+                        key={achievement.icon.src}
+                        src={achievement.icon.src}
+                        alt={achievement.icon.alt}
                       />
                     ) : null
                   )}
@@ -83,8 +82,8 @@ function Education(props) {
   );
 }
 
-Education.propTypes = {
+Achievements.propTypes = {
   header: PropTypes.string.isRequired,
 };
 
-export default Education;
+export default Achievements;

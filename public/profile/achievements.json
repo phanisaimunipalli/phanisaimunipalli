@@ -1,0 +1,34 @@
+{
+  "achievements": [
+    {
+      "title": "May 2021",
+      "cardTitle": "Bravo Award",
+      "cardSubtitle": "Walmart Global Tech India",
+      "cardDetailedText": "For developing the Walmart Fulfillment Services (WFS) and enabling the 2-Day Delivery across the Nationwide of USA by saving $60B"
+    },
+    {
+      "title": "June 2021",
+      "cardTitle": "Innovation Award",
+      "cardSubtitle": "Walmart Global Tech India",
+      "cardDetailedText": "For creating Python scripts to handle 2 million records in seconds instead of the traditional way."
+    },
+    {
+      "title": "July 2018",
+      "cardTitle": "Brighter Blue",
+      "cardSubtitle": "IBM India Pvt Ltd",
+      "cardDetailedText": "For creating a Google Assistant that conversed as my friend during my speech; everyone had a great time and I was appreciated for my ability to utilize technology for conveying engaging stories."
+    },
+    {
+      "title": "April 2017",
+      "cardTitle": "College Representative Recognition",
+      "cardSubtitle": "Entrepreneurship Cell of IIT Bombay"
+    },
+
+    {
+      "title": "December 2016",
+      "cardTitle": "3rd Place 24 Hour Code-A-Thon",
+      "cardSubtitle": "Miracle Software Systems, Inc",
+      "cardDetailedText": "Achieved 3rd place in the segment of Internet of Things concept in the time of 24hours continous coding to build a working application."
+    }
+  ]
+}

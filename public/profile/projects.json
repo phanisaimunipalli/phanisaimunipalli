@@ -1,150 +1,156 @@
 {
-    "projects" : [
+  "projects": [
+    {
+      "title": "Rx Audit Dashboard",
+      "bodyText": "A dashboard to view the real-time ASNs(Advance Shipping Notice) sent by Walmart's Pharmacy suppliers. This will help business stakeholders and teams to search for particular orders and view the metrics on hourly and daily basis.\n\n**Roles and Responsibilities:**\n - Build a React Dashboard adhering to Walmart's internal standards.\n - Developed Performance rich REST APIs after extracting the resultset from the Azure DB.\n - Write Queries to fetch required data and fine-tune them using different indexing strategies and concepts.",
+      "tags": [
+        "2021",
+        "Walmart Global Tech India",
+        "React",
+        "React Native",
+        "JetPack",
+        "Azure SQL",
+        "Kubernetes",
+        "Azure Storage",
+        "Azure Cloud",
+        "Docker"
+      ]
+    },
+    {
+      "title": "WFS (Walmart Fulfillment Services)",
+      "bodyText": "Implemented an Enterprise Service Bus (ESB) for eCommerce orders by leveraging Walmart’s 1P capabilities with 3P sellers by developing WFS (Walmart Fulfillment Services) with numerous routes **enabling the two-day delivery across the USA**.\n\n**Roles and Responsibilities:**\n - Worked with around 8 teams to bring this to reality and I am **responsible for 40+ interface routes** going through our component.\n - Various data exchange mediums like SFTP, IBM MQs, AMQs, and Kafka are integrated with multiple upstream and downstream systems.\n - Huge volume of **files(>30,000 per hour) carrying real-time data** is handled by the ESB.",
+      "links": [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
-            ]
+          "text": "WFS Portal",
+          "href": "https://marketplace.walmart.com/walmart-fulfillment-services/"
         }
-    ]
+      ],
+      "tags": [
+        "2021",
+        "Walmart Global Tech India",
+        "Python",
+        "Java",
+        "Microservices",
+        "Apache Camel",
+        "Kafka",
+        "IBM MQ",
+        "Enterprise Integration Patterns",
+        "CQRS",
+        "Azure Cloud",
+        "Kubernetes",
+        "Linux"
+      ]
+    },
+    {
+      "title": "GDM (Global Delivery Management)",
+      "bodyText": "GDM is a Global Delivery Management system which manages the deliveries placed by the vendors from the process of scheduling the orders and till the loads are received at Distribution Centers(DC) by the DC associates.\n\n There are different types of DCs and accordingly different types of deliveries like groceries, electronics, fashion products etc.., GDM is the entry point of the whole process.\n\n**Roles and Responsibilities:**\n - Developing highly scalable APIs for creation of the data incoming and to provide performance rich experience while fetching the data from the application.\n - Continuously analyzing the performance of APIs and finding the **better indexing strategies.**",
+      "tags": [
+        "2020",
+        "Walmart Global Tech India",
+        "Java",
+        "Microservices",
+        "Angular",
+        "Kafka",
+        "Active MQ",
+        "Spring Integration",
+        "CQRS"
+      ]
+    },
+    {
+      "title": "ROME(Revenue Opportunity Management Enterprise)",
+      "bodyText": "ROME is a Customer Relationship Management front end application of AT&T. DSL&MS is the sub application name of a middleware that facilitates communication between ROME and various other Partner Systems of AT&T. It deals with both Client and Server for consuming and providing web services for the same.\n\n**Roles & Responsibilities:**\n - Implement REST APIs and SOAP Webservices along with Pub-Sub model data exchange medium as per the requirement and creating WSDL file and schema as per business requirements.\n - Participate in development of the system test plan and support production deployments by identifying the issues, debugging and creating hot fixes to enable a seamless experience for users.\n - Perform deployments and monitor applications using CI/CD pipeline along with generating Docker images and maintenance of Kubernetes clusters.",
+      "tags": [
+        "2018-2020",
+        "IBM India Pvt Ltd",
+        "J2EE",
+        "Java",
+        "Microservices",
+        "SOAP Webservices",
+        "WSDL",
+        "Docker",
+        "AT&T DME2",
+        "Bitbucket",
+        "Azure Cloud",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Lemonade",
+      "bodyText": "LEMONADE is a front-end Angular application that resembles the exact look & feel of Salesforce CRM to embed this customized application inside Salesforce to provide enhanced features as per business requirements. This is a unique architecture which involves end to end lightweight APIs to deliver the data from Solr DB in millions with rich performance.\n\n**Roles & Responsibilities:**\n - Research and Developing Angular Components by calling REST Microservices from the front end. \n - Implementing REST APIs and deploying through Jenkins CI Pipeline which implements the DevOps methodology. \n - Deploying applications into Kubernetes and maintenance of pods ",
+      "tags": [
+        "2020",
+        "IBM India Pvt Ltd",
+        "Salesforce",
+        "Mirco Front-End Architecture",
+        "Angular",
+        "Solr Database",
+        "Elastic Search"
+      ]
+    },
+    {
+      "image": "images/projects/portfolio-poster.png",
+      "title": "Dev Portfolio",
+      "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/phanisaimunipalli/phanisaimunipalli"
+        }
+      ],
+      "tags": ["React", "Portfolio", "JavaScript"]
+    },
+    {
+      "image": "images/projects/cover.png",
+      "title": "The Webzine (e-Magazine)",
+      "bodyText": "An Online Magazine is a web app made using **Web Technologies** for **NRI Institute of Technology** Students. Students can checkout the Webzine to find latest information about the instituion and showcase their special talents with weekly competitions held online.\n - Added User authentication using **OAuth**.\n - Deployed on **000WebHost** using **FileZilla**.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": ""
+        }
+      ],
+      "tags": [
+        "HTML5",
+        "CSS",
+        "BootStrap",
+        "jQuery",
+        "Ajax",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
+      "image": "images/projects/solution.png",
+      "title": "Let's Find The Solution",
+      "bodyText": "A Web App that **built for collecting solutions** to problems rather than waiting for someone to come and help with solution.\n - People can just share their solution for any problem in the university area with their college account.\n - Using this, university community solved 12 problems in less than 2 months.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "#"
+        }
+      ],
+      "tags": [
+        "Java",
+        "Android",
+        "HTML5",
+        "Bootstrap",
+        "Ajax",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
+      "title": "The Web Journal",
+      "bodyText": "People can log their travel history into this online jorunal\n - Designed to learn Vue.js as my learning.\n - Uses **PostgreSQL** database to store entries.\n - Secured with **Github Auth**.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "#"
+        }
+      ],
+      "tags": ["React", "Vue", "Heroku", "Postgres SQL", "Prisma"]
+    }
+  ]
 }

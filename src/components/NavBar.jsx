@@ -60,7 +60,17 @@ const NavBar = () => {
       <Container>
         {data?.logo && (
           <Navbar.Brand href="/">
-            <img
+            <h5
+              style={{
+                color: "white",
+                alignContent: "center",
+                alignItems: "center",
+                fontWeight: "bold",
+              }}
+            >
+              Phani Sai Ram Munipalli
+            </h5>
+            {/* <img
               src={data?.logo?.source}
               className="d-inline-block align-top"
               alt="main logo"
@@ -69,7 +79,7 @@ const NavBar = () => {
                   ? { height: data?.logo?.height, width: data?.logo?.width }
                   : styles.logoStyle
               }
-            />
+            /> */}
           </Navbar.Brand>
         )}
         <Navbar.Toggle

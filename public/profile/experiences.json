@@ -1,33 +1,48 @@
 {
-    "experiences": [
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
-            ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
-        }
-    ]
+  "experiences": [
+    {
+      "title": "Software Engineer II",
+      "subtitle": "Walmart Global Tech India",
+      "workType": "Full-Time",
+      "workDescription": [
+        "Developing high scalable RESTful APIs in **Microservices Architecture** by using Enterprise Integration Patterns (EIP)",
+        "Created Python scripts that **handles more than two million records** of inventory adjustments every day and with a continuous analysis, improved product performance by **optimizing SQL queries** and code logic which **reduced response time by 45%**",
+        "**Implemented an Enterprise Service Bus (ESB)** for eCommerce orders by leveraging Walmart’s 1P capabilities with 3P sellers by developing WFS (Walmart Fulfillment Services) with numerous routes **enabling the two-day delivery across the USA**."
+      ],
+      "dateText": "06/2020 – Present"
+    },
+    {
+      "title": "Application Developer",
+      "subtitle": "IBM India Pvt Ltd",
+      "workType": "Full-Time",
+      "workDescription": [
+        "Implement REST APIs and SOAP Webservices along with Pub-Sub model data exchange medium as per the requirement and **creating WSDL file and schema as per business requirements**.",
+        "Perform deployments and **monitor applications using Jenkins pipeline** along with generating Docker images and maintenance of clusters in Kubernetes.",
+        "Contribute to the design discussions with System Designer and provide technical solutions to the use cases."
+      ],
+      "dateText": "03/2018 – 06/2020"
+    },
+    {
+      "title": "Software Developer",
+      "subtitle": "Pinapaka IT",
+      "workType": "Internship",
+      "workDescription": [
+        "Building a middleware component between a **payment gateway** and the OLRB system using Enterprise Java.",
+        "Create possible scenarios and write unit tests to cover all scenarios using Junit and Mock frameworks, also **maintaining the code coverage more than 80%**.",
+        "**Document the high-level specifications** according to the business requirements using git and collaboration tools and explore the feasible designs."
+      ],
+      "dateText": "05/2017 – 03/2018"
+    },
+    {
+      "title": "IoT Engineering Intern",
+      "subtitle": "Miracle Software Systems Inc",
+      "workType": "Internship",
+      "workDescription": [
+        "Lead a team of 4 people **to win the 24 hours live hackathon** and get an opportunity of internship on Internet of Things concept to develop a next generation ticketing system.",
+        "**Developed an RFID Enabled Ticket System** for the employees at Miracle to make their bus journey seamless by tracking the path and available seats from their mobile app.",
+        "Used technologies: IBM Cloud, Node-RED, Arduino, Raspberry Pi, NoSQL, and Web Tech (HTML, CSS & Bootstrap)"
+      ],
+      "dateText": "01/2017 – 03/2017"
+    }
+  ]
 }
