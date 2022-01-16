@@ -91,12 +91,6 @@
       "image": "images/projects/cover.png",
       "title": "The Webzine (e-Magazine)",
       "bodyText": "An Online Magazine is a web app made using **Web Technologies** for **NRI Institute of Technology** Students. Students can checkout the Webzine to find latest information about the instituion and showcase their special talents with weekly competitions held online.\n - Added User authentication using **OAuth**.\n - Deployed on **000WebHost** using **FileZilla**.",
-      "links": [
-        {
-          "text": "GitHub",
-          "href": ""
-        }
-      ],
       "tags": [
         "HTML5",
         "CSS",
@@ -112,12 +106,6 @@
       "image": "images/projects/solution.png",
       "title": "Let's Find The Solution",
       "bodyText": "A Web App that **built for collecting solutions** to problems rather than waiting for someone to come and help with solution.\n - People can just share their solution for any problem in the university area with their college account.\n - Using this, university community solved 12 problems in less than 2 months.",
-      "links": [
-        {
-          "text": "GitHub",
-          "href": "#"
-        }
-      ],
       "tags": [
         "Java",
         "Android",
@@ -132,12 +120,6 @@
     {
       "title": "The Web Journal",
       "bodyText": "People can log their travel history into this online jorunal\n - Designed to learn Vue.js as my learning.\n - Uses **PostgreSQL** database to store entries.\n - Secured with **Github Auth**.",
-      "links": [
-        {
-          "text": "GitHub",
-          "href": "#"
-        }
-      ],
       "tags": ["React", "Vue", "Heroku", "Postgres SQL", "Prisma"]
     }
   ]
