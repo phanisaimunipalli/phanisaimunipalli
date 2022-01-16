@@ -1,7 +1,7 @@
-import React, { useEffect, useState, useContext } from 'react';
-import { SocialIcon } from 'react-social-icons';
-import { ThemeContext } from 'styled-components';
-import endpoints from '../constants/endpoints';
+import React, { useEffect, useState, useContext } from "react";
+import { SocialIcon } from "react-social-icons";
+import { ThemeContext } from "styled-components";
+import endpoints from "../constants/endpoints";
 
 const styles = {
   iconStyle: {
@@ -17,7 +17,7 @@ function Social() {
 
   useEffect(() => {
     fetch(endpoints.social, {
-      method: 'GET',
+      method: "GET",
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -26,17 +26,29 @@ function Social() {
 
   return (
     <div className="social">
-      {data ? data.social.map((social) => (
-        <SocialIcon
-          key={social.network}
-          style={styles.iconStyle}
-          url={social.href}
-          network={social.network}
-          bgColor={theme.socialIconBgColor}
+      <p>
+        Here is My Recent Article Published by Walmart:{" "}
+        <a
+          className="a-main-article"
+          href="https://medium.com/walmartglobaltech/what-is-pattern-x-c9f0fe63d5e6"
           target="_blank"
-          rel="noopener"
-        />
-      )) : null}
+        >
+          What is Pattern X?
+        </a>
+      </p>
+      {data
+        ? data.social.map((social) => (
+            <SocialIcon
+              key={social.network}
+              style={styles.iconStyle}
+              url={social.href}
+              network={social.network}
+              bgColor={theme.socialIconBgColor}
+              target="_blank"
+              rel="noopener"
+            />
+          ))
+        : null}
     </div>
   );
 }

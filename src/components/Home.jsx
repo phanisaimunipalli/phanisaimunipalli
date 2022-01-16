@@ -50,6 +50,8 @@ function Home() {
             }}
           />
         </div>
+        <br></br>
+        <br></br>
         <Social />
       </div>
     </Fade>
