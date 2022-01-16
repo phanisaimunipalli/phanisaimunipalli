@@ -3,17 +3,34 @@
     {
       "title": "Aug 2013 - May 2017",
       "cardTitle": "Bachelor of Technology, Computer Science",
-      "cardSubtitle": "Jawaharlal Nehru Technological University, Kakinada",
-      "cardDetailedText": "Percentage - 74.42%",
+      "cardSubtitle": "Jawaharlal Nehru Technological University, Kakinada (JNTUK)",
+      "cardDetailedText": [
+        "Percentage - 74.42%",
+        "Following are the courses where I stood as the top scorer in my entire department:",
+        "1. Object Oriented Programming Lab (72/75)",
+        "2. Java Programming Lab (75/75)",
+        "3. Java Programming (95/100)",
+        "4. Data Structures Lab (75/75)",
+        "5. Advanced Data Structures Lab (75/75)",
+        "6. Operating System and Linux Programming Lab (75/75)",
+        "7. Compiler Design Lab (75/75)",
+        "8. Web Technologies Lab (75/75)",
+        "9. Software Testing Lab (75/75)",
+        "10. Software Engineering Lab (72/75)",
+        "11. Final Year Project (200/200)"
+      ],
       "icon": {
         "src": "images/about/phaniicon.png"
       }
     },
     {
       "title": "June 2011 - June 2013",
-      "cardTitle": "Senior High School, (Maths.Physics.Chemistry)",
+      "cardTitle": "Senior High School",
       "cardSubtitle": "Narayana Jr College, Vijayawada, India",
-      "cardDetailedText": "Percentage: 93.2% (11th & 12th)",
+      "cardDetailedText": [
+        "Percentage: 93.2% (11th & 12th)",
+        "(Maths.Physics.Chemistry)"
+      ],
       "icon": {
         "src": "images/about/phaniicon.png"
       }

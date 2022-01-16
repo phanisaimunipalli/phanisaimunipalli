@@ -83,6 +83,7 @@ const NavBar = () => {
           </Navbar.Brand>
         )}
         <Navbar.Toggle
+          style={{ backgroundColor: "white" }}
           aria-controls="responsive-navbar-nav"
           onClick={() => setExpanded(!expanded)}
         />
