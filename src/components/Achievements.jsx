@@ -14,7 +14,7 @@ function Achievements(props) {
   const { header } = props;
   const [data, setData] = useState(null);
   const [width, setWidth] = useState("50vw");
-  const [mode, setMode] = useState("VERTICAL_ALTERNATING");
+  const [mode, setMode] = useState("HORIZONTAL");
   useEffect(() => {
     fetch(endpoints.achievements, {
       method: "GET",
@@ -43,14 +43,15 @@ function Achievements(props) {
       <Header title={header} />
       {data ? (
         <Fade>
-          <div style={{ width: "100%" }} className="section-content-container">
-            <Container>
+          <div style={{ width: "100%" }} className="section-achieve-container">
+            <Container style={{ width: "100%" }}>
               <Chrono
                 hideControls
+                cardPositionHorizontal={"BOTTOM"}
                 allowDynamicUpdate
                 useReadMore={false}
                 items={data.achievements}
-                cardHeight={150}
+                cardHeight={350}
                 mode={mode}
                 theme={{
                   primary: theme.accentColor,

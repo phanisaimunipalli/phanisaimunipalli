@@ -6,20 +6,26 @@
       "cardSubtitle": "Jawaharlal Nehru Technological University, Kakinada",
       "cardDetailedText": "Percentage - 74.42%",
       "icon": {
-        "src": "images/education/lorem-ipsum.png"
+        "src": "images/about/phaniicon.png"
       }
     },
     {
       "title": "June 2011 - June 2013",
-      "cardTitle": "Senior High School",
+      "cardTitle": "Senior High School, (Maths.Physics.Chemistry)",
       "cardSubtitle": "Narayana Jr College, Vijayawada, India",
-      "cardDetailedText": "Percentage: 93.2% (11th & 12th)"
+      "cardDetailedText": "Percentage: 93.2% (11th & 12th)",
+      "icon": {
+        "src": "images/about/phaniicon.png"
+      }
     },
     {
       "title": "May 2011",
       "cardTitle": "Junior High School",
       "cardSubtitle": "Rushi Vidya Sadan, Vijayawada, India",
-      "cardDetailedText": "Percentage: 88% (SSC/10th)"
+      "cardDetailedText": "Percentage: 88% (SSC/10th)",
+      "icon": {
+        "src": "images/about/phaniicon.png"
+      }
     }
   ]
 }
