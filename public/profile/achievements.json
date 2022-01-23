@@ -34,7 +34,13 @@
       "cardDetailedText": [
         "For creating a Google Assistant that conversed as my friend during my speech.",
         "Everyone had a great time and I was appreciated for my ability to utilize technology for conveying engaging stories."
-      ]
+      ],
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "/images/achievements/phani_ibm_award.jpg"
+        }
+      }
     },
     {
       "title": "April 2017",
@@ -43,23 +49,55 @@
       "cardDetailedText": [
         "For representing my college in collecting innovative ideas from students.",
         "For creating the spirit of Entrepreneurship within the young minds by driving the community."
-      ]
+      ],
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "/images/achievements/phani_iit_bombay.jpg"
+        }
+      }
     },
     {
       "title": "December 2016",
       "cardTitle": "3rd Place 24 Hour Code-A-Thon",
       "cardSubtitle": "Miracle Software Systems, Inc",
-      "cardDetailedText": "Achieved 3rd place in the segment of Internet of Things concept in the time of 24hours continous coding to build a working application."
+      "cardDetailedText": "Achieved 3rd place in the segment of Internet of Things concept in the time of 24hours continous coding to build a working application.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "/images/achievements/phani_miracle.jpg"
+        }
+      }
     },
     {
       "title": "Aug 2016",
-      "cardTitle": "2nd Place at National Level Project & Paper Presentation",
+      "cardTitle": "2nd Place at National Level Project Presentation",
       "cardSubtitle": "Jawaharlal Nehru Technological University, Kakinada (JNTUK)",
       "cardDetailedText": [
-        "Achieved 2nd place in both project and paper presentations competitions held by JNTUK at national level.",
-        "Project presentation was on the e-Magazine which I created as a platform for entire student body in the college.",
+        "Achieved 2nd place in both project competition held by JNTUK at national level.",
+        "Project presentation was on the e-Magazine which I created as a platform for entire student body in the college."
+      ],
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "/images/achievements/phani_jntuk_project.jpg"
+        }
+      }
+    },
+    {
+      "title": "Aug 2016",
+      "cardTitle": "2nd Place at National Level Paper Presentation",
+      "cardSubtitle": "Jawaharlal Nehru Technological University, Kakinada (JNTUK)",
+      "cardDetailedText": [
+        "Achieved 2nd place in paper presentations competitions held by JNTUK at national level.",
         "There were total 202 teams participated on different Computer Science topics and I have presented The Human IQ vs AI."
-      ]
+      ],
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "/images/achievements/phani_jntuk_paper.jpg"
+        }
+      }
     }
   ]
 }
