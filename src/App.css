@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap");
+
+@font-face {
+  font-family: phanisaimunipallifont;
+  src: url(./fonts/bogle/BOGLEREGULAR.OTF);
+}
+
 .App {
   text-align: center;
   align-items: center;
@@ -5,7 +12,8 @@
   display: flex;
   height: 100vh;
   flex-direction: row;
-  font-family: "Bogle";
+  font-family: phanisaimunipallifont, "Open Sans", "Roboto Slab", Georgia,
+    "Times New Roman", Times, serif;
 }
 
 .navbar-custom {
@@ -74,7 +82,8 @@
   justify-content: center;
   align-items: center;
   height: 70%;
-  font-family: "Bogle";
+  font-family: phanisaimunipallifont, "Open Sans", "Roboto Slab", Georgia,
+    "Times New Roman", Times, serif;
 }
 
 .Typewriter {
@@ -96,19 +105,22 @@ section.timeline-card-content {
 }
 
 section.timeline-card-content p.card-title {
-  font-family: "Bogle";
+  font-family: phanisaimunipallifont, "Open Sans", "Roboto Slab", Georgia,
+    "Times New Roman", Times, serif;
   font-size: 1.5em;
   margin-top: 25px;
 }
 
 section.timeline-card-content p.card-sub-title {
-  font-family: "Bogle";
+  font-family: phanisaimunipallifont, "Open Sans", "Roboto Slab", Georgia,
+    "Times New Roman", Times, serif;
   font-size: 1.25em;
   margin-top: 10px;
 }
 
 section.timeline-card-content div.card-description > p {
-  font-family: "Bogle";
+  font-family: phanisaimunipallifont, "Open Sans", "Roboto Slab", Georgia,
+    "Times New Roman", Times, serif;
   font-size: 1.2em;
   margin-top: 10px;
   font-weight: 500;
