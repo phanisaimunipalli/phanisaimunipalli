@@ -1,6 +1,20 @@
 {
   "education": [
     {
+      "title": "Aug 2022 - Present (May 2024)",
+      "cardTitle": "Master of Science in Software Engineering",
+      "cardSubtitle": "San José State University, California, USA",
+      "cardDetailedText": [
+        "Semester I",
+        "1. Enterprise Software Platforms",
+        "2. Cloud Technologies",
+        "3. Virtualization Technologies"
+      ],
+      "icon": {
+        "src": "images/about/phaniicon.png"
+      }
+    },
+    {
       "title": "Aug 2013 - May 2017",
       "cardTitle": "Bachelor of Technology, Computer Science",
       "cardSubtitle": "Jawaharlal Nehru Technological University, Kakinada (JNTUK)",

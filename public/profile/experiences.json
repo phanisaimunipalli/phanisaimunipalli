@@ -1,6 +1,18 @@
 {
   "experiences": [
     {
+      "title": "Cheif Coordinator - Information Technology",
+      "subtitle": "Indian Student Organization of San Jose State University (ISO-SJSU)",
+      "workType": "Volunteer",
+      "workDescription": [
+        "Building visually appealing web pages in collaboration with ISO-SJSU team using MERN stack.",
+        "Maintaining and updating of ISO-SJSU web pages and information related to upcoming events.",
+        "Address other technological needs of the ISO-SJSU as requested.",
+        "Working with a distributed development team to integrate data from a variety of services."
+      ],
+      "dateText": "August 2022 – Present"
+    },
+    {
       "title": "Software Engineer II",
       "subtitle": "Walmart Global Tech India",
       "workType": "Full-Time",
