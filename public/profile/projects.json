@@ -1,6 +1,19 @@
 {
   "projects": [
     {
+      "title": "ISO-SJSU Web",
+      "bodyText": "A web application built using MERN stack to provide all kinds of information to Indian Students studying in San Jose State University.",
+      "tags": [
+        "ISO-SJSU",
+        "Information Hub",
+        "Volunteer",
+        "React + NextJS",
+        "JetPack",
+        "Re-Branded ISO-SJSU",
+        "Theme of SJSU"
+      ]
+    },
+    {
       "title": "Rx Audit Dashboard",
       "bodyText": "A dashboard to view the real-time ASNs(Advance Shipping Notice) sent by Walmart's Pharmacy suppliers. This will help business stakeholders and teams to search for particular orders and view the metrics on hourly and daily basis.\n\n**Roles and Responsibilities:**\n - Build a React Dashboard adhering to Walmart's internal standards.\n - Developed Performance rich REST APIs after extracting the resultset from the Azure DB.\n - Write Queries to fetch required data and fine-tune them using different indexing strategies and concepts.",
       "tags": [
