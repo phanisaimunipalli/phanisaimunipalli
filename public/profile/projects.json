@@ -3,6 +3,12 @@
     {
       "title": "ISO-SJSU Web",
       "bodyText": "A web application built using MERN stack to provide all kinds of information to Indian Students studying in San Jose State University.",
+      "links": [
+        {
+          "text": "isosjsu.com",
+          "href": "https://isosjsu.com/"
+        }
+      ],
       "tags": [
         "ISO-SJSU",
         "Information Hub",
