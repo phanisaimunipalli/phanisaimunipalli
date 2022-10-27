@@ -37,7 +37,7 @@ function Home() {
     <Fade>
       <div style={styles.mainContainer}>
         <div>
-          <img src={data?.imageSource} width="250px" alt="phanisaimunipalli" />
+          <img src={data?.imageSource} width="320px" alt="phanisaimunipalli" />
         </div>
         <h1 style={styles.nameStyle}>{data?.name}</h1>
         <div style={{ flexDirection: "row" }}>

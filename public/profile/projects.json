@@ -1,14 +1,52 @@
 {
   "projects": [
     {
-      "title": "ISO-SJSU Web",
-      "bodyText": "A web application built using MERN stack to provide all kinds of information to Indian Students studying in San Jose State University.",
+      "title": "InSearch",
+      "bodyText": "AWS InSearch is a Serverless App powered by AWS Lambda and AWS Rekognition which can detect items and get labels from the image uploaded into S3 Bucket.",
       "links": [
         {
-          "text": "isosjsu.com",
-          "href": "https://isosjsu.com/"
+          "text": "More About InSearch",
+          "href": "https://github.com/phanisaimunipalli/aws-insearch"
         }
       ],
+      "tags": [
+        "October 2022",
+        "Serverless Framework",
+        "IAM",
+        "AWS Rekognition",
+        "AWS S3",
+        "EC2",
+        "Elastic BeanStalk",
+        "CloudWatch",
+        "AWS Lambda"
+      ]
+    },
+    {
+      "title": "AWS QR Saver",
+      "bodyText": "QR Saver is powered by AWS CodeStar and developed as part of CMPE-281 Project assignment leveraging AWS Cloud services, deployed by AWS CloudFormation to AWS Elastic Bean Stalk and Amazon API Gateway.",
+      "links": [
+        {
+          "text": "QR Saver",
+          "href": "https://github.com/phanisaimunipalli/AWS-QR-Saver"
+        }
+      ],
+      "tags": [
+        "October 2022",
+        "Embedded Javascript",
+        "NodeJS",
+        "Express",
+        "AWS Dynamo DB",
+        "AWS S3",
+        "EC2",
+        "Elastic BeanStalk",
+        "CloudWatch",
+        "Lambda",
+        "Elastic Load Balancer"
+      ]
+    },
+    {
+      "title": "ISO-SJSU Web",
+      "bodyText": "A web application built using MERN stack to provide all kinds of information to Indian Students studying in San Jose State University.",
       "tags": [
         "ISO-SJSU",
         "Information Hub",
