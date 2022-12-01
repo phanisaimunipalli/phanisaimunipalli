@@ -1,6 +1,33 @@
 {
   "projects": [
     {
+      "title": "Subspire",
+      "bodyText": "Subspire is an end to end Subscriptions Management Dashboard where we can track and generate analytics to make informed decisions to users and also help you to stay money conscious on where your neighborhood is spending and how you can save money out of it.",
+      "links": [
+        {
+          "text": "Subspire",
+          "href": "https://github.com/phanisaimunipalli/subspire-frontend"
+        }
+      ],
+      "tags": [
+        "November 2022",
+        "Finalist of Silicon Valley Innovation 2022",
+        "Powered by AWS",
+        "Micro Frontends",
+        "React.js",
+        "Tailwind CSS",
+        "ReCharts",
+        "UX/UI Design",
+        "EC2",
+        "CloudFront",
+        "AWS S3",
+        "EC2",
+        "Elastic BeanStalk",
+        "CloudWatch",
+        "AWS Lambda"
+      ]
+    },
+    {
       "title": "InSearch",
       "bodyText": "AWS InSearch is a Serverless App powered by AWS Lambda and AWS Rekognition which can detect items and get labels from the image uploaded into S3 Bucket.",
       "links": [
@@ -47,6 +74,12 @@
     {
       "title": "ISO-SJSU Web",
       "bodyText": "A web application built using MERN stack to provide all kinds of information to Indian Students studying in San Jose State University.",
+      "links": [
+        {
+          "text": "ISO-SJSU",
+          "href": "http://isosjsu.com/"
+        }
+      ],
       "tags": [
         "ISO-SJSU",
         "Information Hub",
