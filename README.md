@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-- 🔭 Finalist of Silicon Valley Innovation Challenge (SVIC) 2022.
-- ✅ I'm studying Product-Led Certification Course by Pendo x Mind the Product.
+- 🏅 Finalist of Silicon Valley Innovation Challenge (SVIC) 2022.
+- 📚 I'm studying Product-Led Certification Course by Pendo x Mind the Product.
 - 👨🏻‍🎓 I’m Mastering Software Engineering and enhancing my Product Management skills.
 - 👯 I’m looking to collaborate on building an Interesting Product that matters.
 - 💬 Ask me about Microservices, Product-Led, Product Experience or discussion about any Idea.
