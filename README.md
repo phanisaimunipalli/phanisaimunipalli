@@ -1,8 +1,8 @@
 ### Hi there 👋
 
+- ✅ Product-Led Certified by "Pend & Mind the Product" to create Product-led Organization.
 - 🏅 Finalist of Silicon Valley Innovation Challenge (SVIC) 2022.
 - 👨🏻‍🎓 I’m studying Master of Science in Software Engineering.
-- 📚 I'm learning Product-Led Certification Course by Pendo x Mind the Product.
 - 👯 I’m looking to collaborate on building an Interesting Product that matters.
 - 💬 Ask me about Microservices, Product-Led, Product Experience or discussion about any Idea.
 - 📫 How to reach me: Anytime on LinkedIn: [Phani Sai Ram Munipalli](https://www.linkedin.com/in/iamphanisairam/)
