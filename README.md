@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- ✅ Product-Led Certified by "Pend & Mind the Product" to create Product-led Organization.
+- ✅ Product-Led Certified by "Pendo & Mind the Product" to create Product-led Organization.
 - 🏅 Finalist of Silicon Valley Innovation Challenge (SVIC) 2022.
 - 👨🏻‍🎓 I’m studying Master of Science in Software Engineering.
 - 👯 I’m looking to collaborate on building an Interesting Product that matters.
