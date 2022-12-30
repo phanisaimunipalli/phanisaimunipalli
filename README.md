@@ -5,6 +5,7 @@
 
 ## 💻 My Recent Products
 
+- [JustInsights](https://github.com/phanisaimunipalli/justinsights) (Dec 2022)
 - TeamZone (Dec 2022)
   - [TeamZone Frontend](https://github.com/phanisaimunipalli/teamzone-frontend)
   - [TeamZone Backend](https://github.com/phanisaimunipalli/teamzone-backend)
