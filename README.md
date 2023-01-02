@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 ## 💫 Welcome to My GitHub
-✅ Product-Led Certified by "Pendo & Mind the Product" to create Product-led Organization.<br>🏅 Finalist of Silicon Valley Innovation Challenge (SVIC) 2022.<br>👨🏻‍🎓 I’m studying Master of Science in Software Engineering.<br>👯 I’m looking to collaborate on building an Interesting Product that matters.<br>💬 Ask me about Microservices, Product-Led, Product Experience or discussion about any Idea.<br>📫 How to reach me: Anytime on LinkedIn: Phani Sai Ram Munipalli<br>😄 Pronouns: He/Him/His<br>⚡ Fun fact: I believe in Science Behind Dreams.
+👨🏻 Pronouns: He/Him/His<br> ✅ Product-Led Certified by "Pendo & Mind the Product" to create Product-led Organization.<br>🏅 Finalist of Silicon Valley Innovation Challenge (SVIC) 2022.<br>👨🏻‍🎓  Mastering the Science of Software Engineering.<br>👯 Open to connect over a virtual coffee chat & talk about Your Favorite Product.<br>💬 Run a Query about Technology, Product-Led, and Anecdotal Data Stories.<br>📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/iamphanisairam/) & [Calendly](https://calendly.com/iamphanisairam) <br>⚡ Fun fact: I believe in Science Behind Dreams.
 
 ## 💻 My Recent Products
 
