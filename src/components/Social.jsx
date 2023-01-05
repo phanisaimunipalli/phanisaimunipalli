@@ -26,9 +26,9 @@ function Social() {
 
   return (
     <div className="social">
-      <p><b>Applying for Summer Internship 2023, How Can I Help Your Team?</b></p>
+      <p><b>Applying for Summer Internship, How Can I Help Your Team?</b></p>
       <p>
-        Here is My Interesting Article Published by Walmart:{" "}
+        Here is My Interesting Article Published by <b>Walmart</b>:{" "}
         <a
           className="a-main-article"
           href="https://medium.com/walmartglobaltech/what-is-pattern-x-c9f0fe63d5e6"
