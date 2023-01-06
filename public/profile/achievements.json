@@ -1,6 +1,21 @@
 {
   "achievements": [
     {
+      "title": "December 2022",
+      "cardTitle": "Product-Led Certified",
+      "cardSubtitle": "Pend & Mind The Product",
+      "cardDetailedText": [
+        "Earners of this badge have demonstrated their knowledge of how to place their product at the center of the customer experience.",
+        "Leverage their product to solve challenges across all departments of the business, thereby being product led."
+      ],
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "/images/achievements/PhaniM_ProductLed_Certified.png"
+        }
+      }
+    },
+    {
       "title": "May 2021",
       "cardTitle": "Bravo Award",
       "cardSubtitle": "Walmart Global Tech India",
