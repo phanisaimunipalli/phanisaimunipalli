@@ -1,6 +1,21 @@
 {
   "achievements": [
     {
+      "title": "January 2023",
+      "cardTitle": "AWS Cloud Quest: Cloud Practitioner",
+      "cardSubtitle": "Amazon Web Services (AWS Training & Certificaton)",
+      "cardDetailedText": [
+        "Earners of this badge have demonstrated basic solution building knowledge using AWS services and have a fundamental understanding of AWS Cloud concepts.",
+        "Badge earners have acquired hands-on experience with compute, networking, database and security services."
+      ],
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "/images/achievements/Phani_AWSCloud_Quest_CredlyBadge.png"
+        }
+      }
+    },
+    {
       "title": "December 2022",
       "cardTitle": "Product-Led Certified",
       "cardSubtitle": "Pend & Mind The Product",

@@ -17,25 +17,30 @@
       "subtitle": "Walmart Global Tech India",
       "workType": "Full-Time",
       "workDescription": [
-        "Developing high scalable RESTful APIs in **Microservices Architecture** by using Enterprise Integration Patterns (EIP)",
-        "Created Python scripts that **handles more than two million records** of inventory adjustments every day and with a continuous analysis, improved product performance by **optimizing SQL queries** and code logic which **reduced response time by 45%**",
-        "**Implemented an Enterprise Service Bus (ESB)** for eCommerce orders by leveraging Walmart’s 1P capabilities with 3P sellers by developing WFS (Walmart Fulfillment Services) with numerous routes **enabling the two-day delivery across the USA**."
+        "Designed an Enterprise Service Bus (ESB) for online orders, **devised 40+ camel routes across 9 internal systems** utilizing Kafka.",
+        "Launched Walmart Fulfillment Services (WFS), **achieved 2 day delivery for 60% of nationwide orders** in the USA by collaborating with cross-functional teams, including engineering, design, and business stakeholders, to ensure smooth product launches.",
+        "Programmed 5 reusable Python scripts for on-premise to Azure migration, **processed 2M+ orders during Thanksgiving 2021.**",
+        "**Reduced p99 latency by 32%** by re-engineering 8 REST APIs of invoice product, used by associates at 23 Distribution Centers.",
+        "Analyzed 4 SQL Query Execution Plans for optimizing Pharmacy data search, **minimized response time to 20ms** from 350ms.",
+        "**Developed 16+ scalable Microservices** by executing Event Sourcing Patterns and Test-Driven Development methodologies.,"
       ],
       "dateText": "June 2020 – July 2022"
     },
     {
-      "title": "Application Developer",
+      "title": "Software Engineer I",
       "subtitle": "IBM India Pvt Ltd",
       "workType": "Full-Time",
       "workDescription": [
-        "Implement REST APIs and SOAP Webservices along with Pub-Sub model data exchange medium as per the requirement and **creating WSDL file and schema as per business requirements**.",
-        "Perform deployments and **monitor applications using Jenkins pipeline** along with generating Docker images and maintenance of clusters in Kubernetes.",
-        "Contribute to the design discussions with System Designer and provide technical solutions to the use cases."
+        "Transformed Monolithic application into Microservices in backend and elevated self-service features on frontend UI of Web and Mobile with in-app guidance, **increased user engagement by 27% in 3 months** and 76% in 11 months.",
+        "Built 7 CI/CD pipelines for automating deployments into Google Cloud, **expedited by 4x times** using Jenkins and Kubernetes.",
+        "Collaborated with 12 System Designers for organizing weekly tech talks, ranked in top 5% of 200 engineers of the year.",
+        "**Prioritized Product vision with developers to align internal stakeholders based on the customer data analysis and feature adoption rate, resulting in 0 conflicts and 100% successful production releases.",
+        "**Improved code quality by fixing 5 critical bugs** in 3 core codebases integrating SonarQube, **achieved 92% security metric.**"
       ],
       "dateText": "March 2018 – June 2020"
     },
     {
-      "title": "Software Developer",
+      "title": "Software Development Intern",
       "subtitle": "Pinapaka IT",
       "workType": "Internship",
       "workDescription": [
@@ -52,7 +57,7 @@
       "workDescription": [
         "Lead a team of 4 people **to win the 24 hours live hackathon** and get an opportunity of internship on Internet of Things concept to develop a next generation ticketing system.",
         "**Developed an RFID Enabled Ticket System** for the employees at Miracle to make their bus journey seamless by tracking the path and available seats from their mobile app.",
-        "Used technologies: IBM Cloud, Node-RED, Arduino, Raspberry Pi, NoSQL, and Web Tech (HTML, CSS & Bootstrap)"
+        "Used technologies: Python, IBM Cloud, Node-RED, Arduino, Raspberry Pi, NoSQL, and Web Tech (HTML, CSS & Bootstrap)"
       ],
       "dateText": "Jan 2017 – March 2017"
     }
