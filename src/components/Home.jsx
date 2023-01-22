@@ -50,7 +50,36 @@ function Home() {
             }}
           />
         </div>
+        <br></br>
+        <p><b>Applying for Summer 2023 Internship, How Can I Help Your Team?</b></p>
+      <p>
+      <br></br>
+        <u>What's New With Me? </u>
+        <br></br>
+        <ul>
+          <li> <b>Developed </b>:{" "}
+            <a
+              className="a-main-article"
+              href="https://github.com/phanisaimunipalli/giftgen"
+              target="_blank"
+            >
+              GiftGen (utilizes Open AI's ChatGPT)
+            </a>
+          </li>
+          <li>
+              <b>Completed </b>:{" "}
+            <a
+              className="a-main-article"
+              href="https://www.credly.com/badges/cd03de69-9fc7-4ee4-813f-9351f37e64ab/public_url"
+              target="_blank"
+            >
+              AWS Cloud Quest: Cloud Practitioner
+            </a>
+          </li>
+          
+        </ul>  
         
+      </p>
         <Social />
       </div>
     </Fade>

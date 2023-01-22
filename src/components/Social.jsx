@@ -26,7 +26,7 @@ function Social() {
 
   return (
     <div className="social">
-      <p><b>Applying for Summer Internship, How Can I Help Your Team?</b></p>
+      {/* <p><b>Applying for Summer Internship, How Can I Help Your Team?</b></p> */}
       <p>
         Here is My Interesting Article Published by <b>Walmart</b>:{" "}
         <a

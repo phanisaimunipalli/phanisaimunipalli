@@ -1,6 +1,31 @@
 {
   "projects": [
     {
+      "title": "GiftGen 🎁",
+      "bodyText": "GiftGen utilizes the power of ChatGPT to generate personalized gift ideas for your friends and family. Whether you're looking for a birthday present, a special anniversary gift, or just a way to show someone you care, GiftGen has you covered.\n\n**Top 3 things you can unlock with GiftGen:**\n - Easy to browse through a wide variety of gift ideas.\n - Tailored to the interests of the person you are shopping for.\n - Now, Gift-Giving is more fun & thoughtful.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/phanisaimunipalli/giftgen"
+        },
+        {
+          "text": "Web",
+          "href": "https://giftgen-gpt.vercel.app"
+        }
+      ],
+      "tags": [
+        "January 2023",
+        "Dall E APIs",
+        "Open AI",
+        "ChatGPT",
+        "React.js",
+        "React.js",
+        "Material UI (MUI)",
+        "UX/UI Design",
+        "Vercel"
+      ]
+    },
+    {
       "title": "Subspire",
       "bodyText": "Subspire is an end to end Subscriptions Management Dashboard where we can track and generate analytics to make informed decisions to users and also help you to stay money conscious on where your neighborhood is spending and how you can save money out of it.",
       "links": [
