@@ -1,6 +1,31 @@
 {
   "experiences": [
     {
+      "title": "Graduate Research Assistant",
+      "subtitle": "Explainable Sentiment-Aware Conversational Agents (San Jose State University)",
+      "workType": "Part-Time",
+      "workDescription": [
+        "Conducting literature reviews and summarizing an average of 24 relevant technical papers per month on the topic of Explainable Sentiment-Aware Conversational Agents.",
+        "Contributing to the development of datasets using ChatGPT, enabling submission of research papers to conferences and journals.",
+        "Assisting in the development of proposals for external funding and writing 6 review papers per week.",
+        "Demonstrating ability to plan, design, and conduct high-quality scientific research on the Conversational Search, Conversational Information Retrieval and Spoken search.",
+        "Achieving an accuracy rate of 80% or higher in identifying relevant literature."
+      ],
+      "dateText": "January 2023 – Present"
+    },
+    {
+      "title": "Teaching Associate",
+      "subtitle": "ME 30 - Computer Applications (San Jose State University)",
+      "workType": "Part-Time",
+      "workDescription": [
+        "Assisting professor in the management and delivery of a Python course for 25+ students, including curriculum development, lesson planning, and grading.",
+        "Leading hands-on coding sessions and software building workshops, guiding students through the entire software development lifecycle, from requirements gathering to deployment.",
+        "Providing one-on-one support to students by assisting them in finding ways to succeed and adjust to the college education system, resulting in a 15% increase in student retention rate.",
+        "Training students in labs and workshops, resulting in a 20% improvement in students coding skills and understanding of software development concepts."
+      ],
+      "dateText": "January 2023 – Present"
+    },
+    {
       "title": "Chief Coordinator - Information Technology",
       "subtitle": "Indian Student Organization of San Jose State University (ISO-SJSU)",
       "workType": "Volunteer",
