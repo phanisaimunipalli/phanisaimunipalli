@@ -57,13 +57,22 @@ function Home() {
         <u>What's New With Me? </u>
         <br></br>
         <ul>
+        <li> <b>Launched</b>:{" "}
+            <a
+              className="a-main-article"
+              href="https://open.spotify.com/show/0qh7VRnAXiUqzWEBD87HBN"
+              target="_blank"
+            >
+              The Hustle Chapters (Podcast: Decision-Making)
+            </a>
+          </li>
           <li> <b>Developed </b>:{" "}
             <a
               className="a-main-article"
               href="https://github.com/phanisaimunipalli/giftgen"
               target="_blank"
             >
-              GiftGen (utilizes Open AI's ChatGPT)
+              GiftGen (powered by Open AI's GPT-4)
             </a>
           </li>
           <li>
