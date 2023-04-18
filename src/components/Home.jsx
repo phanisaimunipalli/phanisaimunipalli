@@ -51,7 +51,7 @@ function Home() {
           />
         </div>
         <br></br>
-        <p><b>Applying for Summer 2023 Internship, How Can I Help Your Team?</b></p>
+        <p><b>Excited to Announce the Launch of My Brand New Podcast: The Hustle Chapters 🥳</b></p>
       <p>
       <br></br>
         <u>What's New With Me? </u>
