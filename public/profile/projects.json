@@ -1,6 +1,45 @@
 {
   "projects": [
     {
+      "title": "The Hustle Chapters 🎧",
+      "bodyText": "A Podcast show about Decision-Making in Technology & Business. I always wonder how people make deicions and believe that decisions are a truly powerful and much more understanding is required how people make those decisions. So I started this podcast show, I invite industry experts to share their amazing stories and decision-making strategies.",
+      "links": [
+        {
+          "text": "Podcast",
+          "href": "https://linktr.ee/thehustlechapters"
+        }
+      ],
+      "tags": [
+        "April 2023",
+        "Founder",
+        "Podcast",
+        "Host",
+        "Product Discovery",
+        "Spotify",
+        "Apple Podcasts",
+        "Google Podcasts",
+        "Amazon Music"
+      ]
+    },
+    {
+      "title": "Product - User Research 👨‍🔬",
+      "bodyText": "With the rise of Generative AI tools everywhere, I saw people are overwhelemed with a lot of tools in market, I picked up this problem and started my research to users' pain points and what they are looking for in these AI Products .\n\n**Top 3 Research Outcomes out of 50+ Users:**\n - 86% of users prefer Data Privacy.\n - Productivity is the top prioroty for 82% of users.\n - 25% of people have never used as of March 2023.",
+      "links": [
+        {
+          "text": "Research PDF",
+          "href": "./pdfs/AI_Products_Survey.pdf"
+        }
+      ],
+      "tags": [
+        "March 2023",
+        "Product Research",
+        "Product Market-Fit",
+        "User Pain Points",
+        "Designed by Canvas",
+        "Survicate"
+      ]
+    },
+    {
       "title": "GiftGen 🎁",
       "bodyText": "GiftGen utilizes the power of ChatGPT to generate personalized gift ideas for your friends and family. Whether you're looking for a birthday present, a special anniversary gift, or just a way to show someone you care, GiftGen has you covered.\n\n**Top 3 things you can unlock with GiftGen:**\n - Easy to browse through a wide variety of gift ideas.\n - Tailored to the interests of the person you are shopping for.\n - Now, Gift-Giving is more fun & thoughtful.",
       "links": [
@@ -26,7 +65,25 @@
       ]
     },
     {
-      "title": "Subspire",
+      "title": "InTool 🤖",
+      "bodyText": "InTool is a one-stop shop for of your AI needs and supercharge your productivity. You can find the right AI resource at one search with InTool instead of trying out multiple things.",
+      "links": [
+        {
+          "text": "Product",
+          "href": "https://www.intool.website/"
+        }
+      ],
+      "tags": [
+        "March 2023",
+        "Airtable",
+        "Softr",
+        "Product Manager",
+        "Product Research",
+        "Product Launch"
+      ]
+    },
+    {
+      "title": "Subspire 📊",
       "bodyText": "Subspire is an end to end Subscriptions Management Dashboard where we can track and generate analytics to make informed decisions to users and also help you to stay money conscious on where your neighborhood is spending and how you can save money out of it.",
       "links": [
         {
@@ -53,7 +110,7 @@
       ]
     },
     {
-      "title": "InSearch",
+      "title": "InSearch 🔍",
       "bodyText": "AWS InSearch is a Serverless App powered by AWS Lambda and AWS Rekognition which can detect items and get labels from the image uploaded into S3 Bucket.",
       "links": [
         {
@@ -74,7 +131,7 @@
       ]
     },
     {
-      "title": "AWS QR Saver",
+      "title": "AWS QR Saver ☁️📁",
       "bodyText": "QR Saver is powered by AWS CodeStar and developed as part of CMPE-281 Project assignment leveraging AWS Cloud services, deployed by AWS CloudFormation to AWS Elastic Bean Stalk and Amazon API Gateway.",
       "links": [
         {

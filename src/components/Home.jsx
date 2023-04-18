@@ -60,7 +60,7 @@ function Home() {
         <li> <b>Launched</b>:{" "}
             <a
               className="a-main-article"
-              href="https://open.spotify.com/show/0qh7VRnAXiUqzWEBD87HBN"
+              href="https://linktr.ee/thehustlechapters"
               target="_blank"
             >
               The Hustle Chapters (Podcast: Decision-Making)
