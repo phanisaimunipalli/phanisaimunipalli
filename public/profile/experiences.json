@@ -1,6 +1,17 @@
 {
   "experiences": [
     {
+      "title": "Product Manager",
+      "subtitle": "Address Management, Last Mile Delivery",
+      "workType": "Internship",
+      "workDescription": [
+        "Developing a transformative product vision and strategy for Smart Access into Buildings, leading to a 30% reduction in return or missing orders and boosting customer satisfaction by 25%.",
+        "Engineering innovative solutions to decrease the Lost After Delivery KPI in multi-unit and apartment complexes by 40%, elevating customer experience and improving driver satisfaction by 20%.",
+        "Optimizing the Address Management System (AMS) with 89+ million addresses by incorporating precise geo-coordinates, resulting in a 20% improvement in On-Time Delivery (OTD) KPI and achieving a 95% accuracy rate for delivery routing."
+      ],
+      "dateText": "May 2023 – Present"
+    },
+    {
       "title": "Graduate Research Assistant",
       "subtitle": "Explainable Sentiment-Aware Conversational Agents (San Jose State University)",
       "workType": "Part-Time",
@@ -11,7 +22,7 @@
         "Demonstrating ability to plan, design, and conduct high-quality scientific research on the Conversational Search, Conversational Information Retrieval and Spoken search.",
         "Achieving an accuracy rate of 80% or higher in identifying relevant literature."
       ],
-      "dateText": "January 2023 – Present"
+      "dateText": "January 2023 – May 2023"
     },
     {
       "title": "Teaching Associate",
@@ -23,7 +34,7 @@
         "Providing one-on-one support to students by assisting them in finding ways to succeed and adjust to the college education system, resulting in a 15% increase in student retention rate.",
         "Training students in labs and workshops, resulting in a 20% improvement in students coding skills and understanding of software development concepts."
       ],
-      "dateText": "January 2023 – Present"
+      "dateText": "January 2023 – May 2023"
     },
     {
       "title": "Chief Coordinator - Information Technology",
