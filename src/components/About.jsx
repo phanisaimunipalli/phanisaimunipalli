@@ -11,9 +11,9 @@ const styles = {
   introTextContainer: {
     margin: 10,
     flexDirection: "column",
-    whiteSpace: "pre-wrap",
+    // whiteSpace: "pre-wrap",
     textAlign: "left",
-    fontSize: "1.2em",
+    fontSize: "1.06em",
     fontWeight: 500,
   },
   introImageContainer: {
