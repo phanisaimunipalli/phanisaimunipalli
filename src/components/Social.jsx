@@ -28,7 +28,16 @@ function Social() {
     <div className="social">
       {/* <p><b>Applying for Summer Internship, How Can I Help Your Team?</b></p> */}
       <p>
-        Here is My Interesting Article Published by <b>Walmart</b>:{" "}
+        Published by <b>Mind The Product</b> World's Largest Product Community:{" "}
+        <a
+          className="a-main-article"
+          href="https://www.mindtheproduct.com/self-discovery-and-landing-a-product-management-internship"
+          target="_blank"
+        >
+          Self-Discovery of Product Management
+        </a>
+        <br></br>
+        Predicting Customer Behavior - My Article Published by <b>Walmart</b>:{" "}
         <a
           className="a-main-article"
           href="https://medium.com/walmartglobaltech/what-is-pattern-x-c9f0fe63d5e6"
@@ -37,6 +46,7 @@ function Social() {
           What is Pattern X?
         </a>
       </p>
+      
       {data
         ? data.social.map((social) => (
             <SocialIcon
