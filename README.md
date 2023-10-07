@@ -22,7 +22,7 @@
 ## 🌐 Socials:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/iamphanisairam) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/cloud9writings)
-[![Calendly](https://img.shields.io/badge/Calendly-006bff?logo=calendly&logoColor=white)](https://calendly.com/iamphanisairam)
+[![Topmate](https://img.shields.io/badge/Calendly-006bff?logo=calendly&logoColor=white)](https://topmate.io/iamphanisairam)
 ![Profile Views](https://komarev.com/ghpvc/?username=phanisaimunipalli&style=round-square)
 
 # 💻 Tech Stack:
