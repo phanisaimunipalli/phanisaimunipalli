@@ -27,8 +27,8 @@
     },
     {
       "component": "Projects",
-      "path": "/products",
-      "headerTitle": "Products"
+      "path": "/projects",
+      "headerTitle": "Projects"
     }
   ]
 }

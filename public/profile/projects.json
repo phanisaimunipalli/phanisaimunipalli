@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "title": "LinkPlus 🚀",
+      "bodyText": "Boost your LinkedIn presence by generating impactful LinkedIn headlines and messages tailored based on your experience and skill set. \n\n**Top 2 things you can unlock with LinkPlus:**\n - Get creative and effective LinkedIn headline based on your skill set and experience.\n - Tailor the connection request messages in seconds based on target profile.",
+      "links": [
+        {
+          "text": "Try LinkPlus",
+          "href": "https://linkplus.vercel.app"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/phanisaimunipalli/linkplus"
+        }
+      ],
+      "tags": [
+        "Oct 2023",
+        "Vercel Edge Functions",
+        "Product Discovery",
+        "Open AI",
+        "Product Execution",
+        "User Experience"
+      ]
+    },
+    {
       "title": "The Hustle Chapters 🎧",
       "bodyText": "A Podcast show about Decision-Making in Technology & Business. I always wonder how people make deicions and believe that decisions are a truly powerful and much more understanding is required how people make those decisions. So I started this podcast show, I invite industry experts to share their amazing stories and decision-making strategies.",
       "links": [

@@ -51,16 +51,25 @@ function Home() {
           />
         </div>
         <br></br>
-        <p><b>Excited to Announce the Launch of My Brand New Podcast: The Hustle Chapters 🥳</b></p>
+        {/* <p><b>Excited to Announce the Launch of My Brand New Podcast: The Hustle Chapters 🥳</b></p> */}
       <p>
       <br></br>
         <u>What's New With Me? </u>
         <br></br>
         <ul>
+        <li> <b>Developed</b>:{" "}
+            <a
+              className="a-main-article"
+              href="https://linkplus.vercel.app/"
+              target="_blank"
+            >
+              LinkPlus for LinkedIn (Gen-AI Product)
+            </a>
+          </li>
         <li> <b>Launched</b>:{" "}
             <a
               className="a-main-article"
-              href="https://linktr.ee/thehustlechapters"
+              href="https://open.spotify.com/show/0qh7VRnAXiUqzWEBD87HBN"
               target="_blank"
             >
               The Hustle Chapters (Podcast: Decision-Making)
@@ -75,7 +84,7 @@ function Home() {
               GiftGen (powered by Open AI's GPT-4)
             </a>
           </li>
-          <li>
+          {/* <li>
               <b>Completed </b>:{" "}
             <a
               className="a-main-article"
@@ -84,7 +93,7 @@ function Home() {
             >
               AWS Cloud Quest: Cloud Practitioner
             </a>
-          </li>
+          </li> */}
           
         </ul>  
         
