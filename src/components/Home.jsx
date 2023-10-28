@@ -7,7 +7,7 @@ import FallbackSpinner from "./FallbackSpinner";
 
 const styles = {
   nameStyle: {
-    fontSize: "5em",
+    fontSize: "4em",
   },
   inlineChild: {
     display: "inline-block",
@@ -37,7 +37,7 @@ function Home() {
     <Fade>
       <div style={styles.mainContainer}>
         <div>
-          <img src={data?.imageSource} width="230px" alt="phanisaimunipalli" />
+          <img src={data?.imageSource} width="200px" alt="phanisaimunipalli" />
         </div>
         <h1 style={styles.nameStyle}>{data?.name}</h1>
         <div style={{ flexDirection: "row" }}>
@@ -57,6 +57,16 @@ function Home() {
         <u>What's New With Me? </u>
         <br></br>
         <ul>
+          
+        <li> <b>Read & Subscribe</b>:{" "}
+            <a
+              className="a-main-article"
+              href="https://phanisproduct.substack.com"
+              target="_blank"
+            >
+              Phani's Product (One-Pager Newsletter)
+            </a>
+          </li>
         <li> <b>Developed</b>:{" "}
             <a
               className="a-main-article"
@@ -66,7 +76,7 @@ function Home() {
               LinkPlus for LinkedIn (Gen-AI Product)
             </a>
           </li>
-        <li> <b>Launched</b>:{" "}
+        <li> <b>Listen to My Podcast</b>:{" "}
             <a
               className="a-main-article"
               href="https://open.spotify.com/show/0qh7VRnAXiUqzWEBD87HBN"
@@ -75,7 +85,7 @@ function Home() {
               The Hustle Chapters (Podcast: Decision-Making)
             </a>
           </li>
-          <li> <b>Developed </b>:{" "}
+          {/* <li> <b>Developed </b>:{" "}
             <a
               className="a-main-article"
               href="https://github.com/phanisaimunipalli/giftgen"
@@ -83,7 +93,7 @@ function Home() {
             >
               GiftGen (powered by Open AI's GPT-4)
             </a>
-          </li>
+          </li> */}
           {/* <li>
               <b>Completed </b>:{" "}
             <a
