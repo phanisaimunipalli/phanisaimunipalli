@@ -1,6 +1,17 @@
 {
   "projects": [
     {
+      "title": "Ad Creator GPT 🚀",
+      "bodyText": "Create a custom GPT using Open AI's GPT, creates Ads those are visually stunning and filled with positive vibes.\n - Generate personalized Ad images to add personality to your brand.",
+      "links": [
+        {
+          "text": "Ad Creator GPT",
+          "href": "https://chat.openai.com/g/g-xHib60YWY-ad-creator"
+        }
+      ],
+      "tags": ["Nov 2023", "Open AI", "GPTs", "Ads", "Custom GPT"]
+    },
+    {
       "title": "LinkPlus 🚀",
       "bodyText": "Boost your LinkedIn presence by generating impactful LinkedIn headlines and messages tailored based on your experience and skill set. \n\n**Top 2 things you can unlock with LinkPlus:**\n - Get creative and effective LinkedIn headline based on your skill set and experience.\n - Tailor the connection request messages in seconds based on target profile.",
       "links": [

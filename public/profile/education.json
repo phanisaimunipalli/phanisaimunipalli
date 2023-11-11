@@ -1,14 +1,14 @@
 {
   "education": [
     {
-      "title": "Aug 2022 - Present (May 2024)",
+      "title": "Aug 2022 - Dec 2023",
       "cardTitle": "Master of Science in Software Engineering",
       "cardSubtitle": "San José State University, California, USA",
       "cardDetailedText": [
-        "Semester I (GPA: 3.9/4.0)",
+        "Semester I (GPA: 3.7)",
         "1. Enterprise Software Platforms",
         "2. Cloud Technologies",
-        "3. Virtualization Technologies"
+        "3. Machine Learning"
       ],
       "icon": {
         "src": "images/about/phaniicon.png"
