@@ -6,18 +6,14 @@
 
 ## 💻 My Recent Products
 
-- [LinkPlus](https://github.com/phanisaimunipalli/linkplus) (Sep 2023)
+- [LinkPlus](https://linkplus.vercel.app) (Sep 2023)
 - [GiftGen](https://github.com/phanisaimunipalli/giftgen) (Jan 2023)
 - [JustInsights](https://github.com/phanisaimunipalli/justinsights) (Dec 2022)
 - TeamZone (Dec 2022)
   - [TeamZone Frontend](https://github.com/phanisaimunipalli/teamzone-frontend)
   - [TeamZone Backend](https://github.com/phanisaimunipalli/teamzone-backend)
-- Subspire (Nov 2022)
-  - [Subspire Frontend](https://github.com/phanisaimunipalli/subspire-frontend)
-  - [Subspire Backend](https://github.com/phanisaimunipalli/subspire-backend)
 - [In Search](https://github.com/phanisaimunipalli/aws-insearch) (Oct 2022)
 - [QR Saver](https://github.com/phanisaimunipalli/AWS-QR-Saver) (Oct 2022)
-- [ISO SJSU](https://isosjsu.com) (Aug 2022)
 
 ## 🌐 Socials:
 
