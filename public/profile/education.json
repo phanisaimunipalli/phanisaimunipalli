@@ -1,11 +1,11 @@
 {
   "education": [
     {
-      "title": "Aug 2022 - Dec 2023",
-      "cardTitle": "Master of Science in Software Engineering",
+      "title": "Aug 2022 - May 2024",
+      "cardTitle": "Master's Degree in Software Engineering",
       "cardSubtitle": "San José State University, California, USA",
       "cardDetailedText": [
-        "Semester I (GPA: 3.7)",
+        "Key Courses:",
         "1. Enterprise Software Platforms",
         "2. Cloud Technologies",
         "3. Machine Learning"
@@ -16,7 +16,7 @@
     },
     {
       "title": "Aug 2013 - May 2017",
-      "cardTitle": "Bachelor of Technology, Computer Science",
+      "cardTitle": "Bachelor's Degree in Computer Science",
       "cardSubtitle": "Jawaharlal Nehru Technological University, Kakinada (JNTUK)",
       "cardDetailedText": [
         "Percentage - 74.42%",
