@@ -13,7 +13,7 @@ const styles = {
     flexDirection: "column",
     // whiteSpace: "pre-wrap",
     textAlign: "left",
-    fontSize: "1.06em",
+    fontSize: "1.3em", // Changed from "1.06em" to make it larger
     fontWeight: 500,
   },
   introImageContainer: {
@@ -51,7 +51,7 @@ function About(props) {
                   {parseIntro(data.about)}
                 </Col>
                 <Col style={styles.introImageContainer}>
-                  <img src={data?.imageSource} width="70%" alt="profile" />
+                  <img src={data?.imageSource} width="95%" alt="profile" />
                 </Col>
               </Row>
             </Fade>

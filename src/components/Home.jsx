@@ -37,7 +37,7 @@ function Home() {
     <Fade>
       <div style={styles.mainContainer}>
         <div>
-          <img src={data?.imageSource} width="200px" alt="phanisaimunipalli" />
+          <img src={data?.imageSource} width="330px" alt="phanisaimunipalli" />
         </div>
         <h1 style={styles.nameStyle}>{data?.name}</h1>
         <div style={{ flexDirection: "row" }}>
@@ -58,7 +58,7 @@ function Home() {
         <br></br>
         <ul>
           
-        <li> <b>Read & Subscribe</b>:{" "}
+         <b>Read & Subscribe</b>:{" "}
             <a
               className="a-main-article"
               href="https://phanisproduct.substack.com"
@@ -66,8 +66,8 @@ function Home() {
             >
               Phani's Product (One-Pager Newsletter)
             </a>
-          </li>
-        <li> <b>Developed</b>:{" "}
+          <br/>
+         <b>Developed</b>:{" "}
             <a
               className="a-main-article"
               href="https://linkplus.vercel.app/"
@@ -75,8 +75,8 @@ function Home() {
             >
               LinkPlus for LinkedIn (Gen-AI Product)
             </a>
-          </li>
-        <li> <b>Listen to My Podcast</b>:{" "}
+            <br/>
+         <b>Listen to My Podcast</b>:{" "}
             <a
               className="a-main-article"
               href="https://open.spotify.com/show/0qh7VRnAXiUqzWEBD87HBN"
@@ -84,7 +84,7 @@ function Home() {
             >
               The Hustle Chapters (Podcast: Decision-Making)
             </a>
-          </li>
+          {/* </li> */}
           {/* <li> <b>Developed </b>:{" "}
             <a
               className="a-main-article"

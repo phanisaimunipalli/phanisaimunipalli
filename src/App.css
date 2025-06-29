@@ -174,4 +174,6 @@ section.timeline-card-content div.card-description > p {
 .a-main-article {
   text-decoration: none;
   font-weight: bold;
+  align-content: left;
+  text-align: left;
 }
