@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans&family=Roboto+Slab&display=swap");
 
 @font-face {
   font-family: phanisaimunipallifont;
-  src: url(./fonts/bogle/BOGLEREGULAR.OTF);
+  src: url(./fonts/everydaysans/EverydaySans-Regular.otf);
 }
 
 .App {

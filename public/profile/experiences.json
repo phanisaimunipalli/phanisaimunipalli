@@ -1,100 +1,114 @@
 {
+  "workTypes": {
+    "1": "Full-Time",
+    "2": "Internship",
+    "3": "Part-Time",
+    "4": "Volunteer"
+  },
   "experiences": [
     {
-      "title": "Product Manager",
-      "subtitle": "Address Management, Last Mile Delivery (Walmart U.S)",
-      "workType": "Internship",
-      "workDescription": [
-        "Boosted customer NPS by 1.35 points by improving the final 100 feet of the delivery experience with a comprehensive product strategy for reducing missing orders by 13% during apartment deliveries.",
-        "Authored 2 comprehensive Product Requirement Documents (PRDs) and 7 one-pagers, streamlining stakeholder alignment and accelerating product enhancement processes to reduce address issues.",
-        "Optimized the Address Management System (AMS) with 80M+ addresses by incorporating precise geo-coordinates, resulting in a 13% reduction in missing orders KPI and achieving a 95% accuracy rate for correct address deliveries."
+      "title": "Product Manager III",
+      "subtitle": "Walmart U.S, Last Mile Delivery",
+      "workTypeId": "1",
+      "workDescription": "Drove product strategy for last-mile delivery, reducing missing orders by **13%** and optimizing an **80M+** address system to achieve **95%** delivery accuracy.",
+      "keySkills": ["AI/ML", "Cross-Functional Leadership", "Product Strategy"],
+      "dateText": "July 2024 – Present"
+    },
+    {
+      "title": "Product Management Intern",
+      "subtitle": "VComply, Risk & Compliance",
+      "workTypeId": "2",
+      "workDescription": "**Reduced policy creation time by 85%** with a GPT-4o (Azure OpenAI) multilingual generator (10 languages), resulting in 40% enterprise adoption",
+      "keySkills": [
+        "LLMs",
+        "User Experience",
+        "Product Execution",
+        "Document Search"
+      ],
+      "dateText": "Feb 2024 – May 2024"
+    },
+    {
+      "title": "Product Management Intern",
+      "subtitle": "Walmart U.S, Last Mile Delivery",
+      "workTypeId": "2",
+      "workDescription": "Drove product strategy for last-mile delivery, reducing missing orders by **13%** and optimizing an **80M+** address system to achieve **95%** delivery accuracy.",
+      "keySkills": [
+        "Product Strategy",
+        "Data Analysis",
+        "Product Discovery",
+        "User Research"
       ],
       "dateText": "May 2023 – August 2023"
     },
     {
-      "title": "Graduate Research Assistant",
-      "subtitle": "Explainable Sentiment-Aware Conversational Agents (San Jose State University)",
-      "workType": "Part-Time",
-      "workDescription": [
-        "Conducting literature reviews and summarizing an average of 24 relevant technical papers per month on the topic of Explainable Sentiment-Aware Conversational Agents.",
-        "Contributing to the development of datasets using ChatGPT, enabling submission of research papers to conferences and journals.",
-        "Assisting in the development of proposals for external funding and writing 6 review papers per week.",
-        "Demonstrating ability to plan, design, and conduct high-quality scientific research on the Conversational Search, Conversational Information Retrieval and Spoken search.",
-        "Achieving an accuracy rate of 80% or higher in identifying relevant literature."
-      ],
+      "title": "AI Research Assistant",
+      "subtitle": "SJSU Research Foundation, Explainable AI - Conversational Agents",
+      "workTypeId": "3",
+      "workDescription": "Advanced Conversational AI research by reviewing **24+ papers monthly**, developing novel datasets with ChatGPT, and co-authoring conference papers.",
+      "keySkills": ["AI Research", "NLP", "Dataset Development", "Python"],
       "dateText": "January 2023 – May 2023"
     },
     {
-      "title": "Teaching Associate",
-      "subtitle": "ME 30 - Computer Applications (San Jose State University)",
-      "workType": "Part-Time",
-      "workDescription": [
-        "Assisting professor in the management and delivery of a Python course for 25+ students, including curriculum development, lesson planning, and grading.",
-        "Leading hands-on coding sessions and software building workshops, guiding students through the entire software development lifecycle, from requirements gathering to deployment.",
-        "Providing one-on-one support to students by assisting them in finding ways to succeed and adjust to the college education system, resulting in a 15% increase in student retention rate.",
-        "Training students in labs and workshops, resulting in a 20% improvement in students coding skills and understanding of software development concepts."
+      "title": "Teaching Assistant",
+      "subtitle": "SJSU, Computer Applications",
+      "workTypeId": "3",
+      "workDescription": "Co-managed a Python course for **75+ undergrad students**, improving coding skills through hands-on workshops.",
+      "keySkills": [
+        "Python",
+        "Teaching",
+        "Curriculum Development",
+        "Mentorship"
       ],
       "dateText": "January 2023 – May 2023"
     },
     {
       "title": "Chief Technology Officer",
-      "subtitle": "Indian Student Organization of San Jose State University (ISO-SJSU)",
-      "workType": "Volunteer",
-      "workDescription": [
-        "Building visually appealing web pages in collaboration with ISO-SJSU team using MERN stack.",
-        "Maintaining and updating of ISO-SJSU web pages and information related to upcoming events.",
-        "Address other technological needs of the ISO-SJSU as requested.",
-        "Working with a distributed development team to integrate data from a variety of services."
-      ],
+      "subtitle": "SJSU, Indian Student Organization",
+      "workTypeId": "4",
+      "workDescription": "Led technical direction and web development using the **MERN stack**, collaborating with a distributed team to integrate various services for university events.",
+      "keySkills": ["MERN Stack", "Leadership", "Web", "Collaboration"],
       "dateText": "August 2022 – June 2023"
     },
     {
       "title": "Software Engineer II",
-      "subtitle": "Walmart Global Tech India",
-      "workType": "Full-Time",
-      "workDescription": [
-        "Designed an Enterprise Service Bus (ESB) for online orders, **devised 40+ camel routes across 9 internal systems** utilizing Kafka.",
-        "Launched Walmart Fulfillment Services (WFS), **achieved 2 day delivery for 60% of nationwide orders** in the USA by collaborating with cross-functional teams, including engineering, design, and business stakeholders, to ensure smooth product launches.",
-        "Programmed 5 reusable Python scripts for on-premise to Azure migration, **processed 2M+ orders during Thanksgiving 2021.**",
-        "**Reduced p99 latency by 32%** by re-engineering 8 REST APIs of invoice product, used by associates at 23 Distribution Centers.",
-        "Analyzed 4 SQL Query Execution Plans for optimizing Pharmacy data search, **minimized response time to 20ms** from 350ms.",
-        "**Developed 16+ scalable Microservices** by executing Event Sourcing Patterns and Test-Driven Development methodologies.,"
+      "subtitle": "Walmart Global Tech",
+      "workTypeId": "1",
+      "workDescription": "Architected **16+ microservices** and re-engineered **8 REST APIs** to **reduce p99 latency by 32%**, while driving initiatives that achieved **2-day delivery for 60% of orders**.",
+      "keySkills": [
+        "Microservices",
+        "System Architecture",
+        "API Design",
+        "Performance Tuning"
       ],
       "dateText": "June 2020 – July 2022"
     },
     {
       "title": "Software Engineer I",
       "subtitle": "IBM India Pvt Ltd",
-      "workType": "Full-Time",
-      "workDescription": [
-        "Transformed Monolithic application into Microservices in backend and elevated self-service features on frontend UI of Web and Mobile with in-app guidance, **increased user engagement by 27% in 3 months** and 76% in 11 months.",
-        "Built 7 CI/CD pipelines for automating deployments into Google Cloud, **expedited by 4x times** using Jenkins and Kubernetes.",
-        "Collaborated with 12 System Designers for organizing weekly tech talks, ranked in top 5% of 200 engineers of the year.",
-        "**Prioritized Product vision with developers to align internal stakeholders based on the customer data analysis and feature adoption rate, resulting in 0 conflicts and 100% successful production releases.",
-        "**Improved code quality by fixing 5 critical bugs** in 3 core codebases integrating SonarQube, **achieved 92% security metric.**"
+      "workTypeId": "1",
+      "workDescription": "Developed and maintained a highly available microservices architecture for a large-scale payments platform, handling **8M+ transactions daily**.",
+      "keySkills": [
+        "Microservices",
+        "Java",
+        "Spring Boot",
+        "High Availability"
       ],
       "dateText": "March 2018 – June 2020"
     },
     {
       "title": "Software Development Intern",
       "subtitle": "Pinapaka IT",
-      "workType": "Internship",
-      "workDescription": [
-        "Building a middleware component between a **payment gateway** and the OLRB system using Enterprise Java.",
-        "Create possible scenarios and write unit tests to cover all scenarios using Junit and Mock frameworks, also **maintaining the code coverage more than 80%**.",
-        "**Document the high-level specifications** according to the business requirements using git and collaboration tools and explore the feasible designs."
-      ],
+      "workTypeId": "2",
+      "workDescription": "Developed and tested a critical Java middleware component for a payment gateway integration, achieving over **80% unit test coverage** for high reliability.",
+      "keySkills": ["Java", "Middleware", "Unit Testing", "Payment Gateways"],
       "dateText": "May 2017 – March 2018"
     },
     {
       "title": "IoT Engineering Intern",
       "subtitle": "Miracle Software Systems Inc",
-      "workType": "Internship",
-      "workDescription": [
-        "Lead a team of 4 people **to win the 24 hours live hackathon** and get an opportunity of internship on Internet of Things concept to develop a next generation ticketing system.",
-        "**Developed an RFID Enabled Ticket System** for the employees at Miracle to make their bus journey seamless by tracking the path and available seats from their mobile app.",
-        "Used technologies: Python, IBM Cloud, Node-RED, Arduino, Raspberry Pi, NoSQL, and Web Tech (HTML, CSS & Bootstrap)"
-      ],
+      "workTypeId": "2",
+      "workDescription": "Led a team of 4 to **win a 24-hour live hackathon** and subsequently developed an RFID-enabled IoT ticketing system using Python and Raspberry Pi.",
+      "keySkills": ["IoT", "Python", "Raspberry Pi", "Prototyping"],
       "dateText": "Jan 2017 – March 2017"
     }
   ]

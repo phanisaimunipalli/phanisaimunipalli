@@ -1,9 +1,74 @@
-.entry .body{
-    margin: 0 0 1em;
+/* --- Custom Card Styling inside the Timeline --- */
+.experience-card-content {
+  background-color: #ffffff; /* Card background */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Consistent spacing between content sections */
 }
 
-@media only screen and (max-width: 768px) {
-    .item-title {
-        margin-top: 10px !important;
-    }
+.card-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-subtitle-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.card-subtitle {
+  font-style: italic;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card-work-type {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.card-description {
+  line-height: 1.6;
+  margin: 0;
+}
+
+.card-skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 5px; /* Extra space above skills */
+}
+
+.skill-tag {
+  background-color: #e0e0e0; /* A more subtle background for tags */
+  color: #333; /* Darker text for readability */
+  padding: 5px 12px;
+  border-radius: 15px; /* Pill-shaped tags */
+  font-size: 0.85em;
+  font-weight: 600;
+}
+
+/* --- Timeline Library Overrides & Adjustments --- */
+/* Ensure the body container has no default padding */
+.vertical-timeline-element-content .vertical-timeline-element-date {
+  font-size: 1rem;
+}
+
+/* On mobile, stack everything in one column */
+@media only screen and (max-width: 1169px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    position: relative !important;
+    top: -15px; /* Position date above the card */
+    left: 0 !important;
+    text-align: left !important;
+  }
 }
