@@ -10,7 +10,7 @@
       "title": "Product Manager III",
       "subtitle": "Walmart U.S, Last Mile Delivery",
       "workTypeId": "1",
-      "workDescription": "Drove product strategy for last-mile delivery, reducing missing orders by **13%** and optimizing an **80M+** address system to achieve **95%** delivery accuracy.",
+      "workDescription": "LLM powered Image Verification | Geocoding Accuracy | Identity Verification",
       "keySkills": ["AI/ML", "Cross-Functional Leadership", "Product Strategy"],
       "dateText": "July 2024 – Present"
     },
@@ -18,7 +18,7 @@
       "title": "Product Management Intern",
       "subtitle": "VComply, Risk & Compliance",
       "workTypeId": "2",
-      "workDescription": "**Reduced policy creation time by 85%** with a GPT-4o (Azure OpenAI) multilingual generator (10 languages), resulting in 40% enterprise adoption",
+      "workDescription": "Reduced policy creation time by 85% with a GPT-4o (Azure OpenAI) multilingual generator (10 languages), resulting in 40% enterprise adoption",
       "keySkills": [
         "LLMs",
         "User Experience",
@@ -31,7 +31,7 @@
       "title": "Product Management Intern",
       "subtitle": "Walmart U.S, Last Mile Delivery",
       "workTypeId": "2",
-      "workDescription": "Drove product strategy for last-mile delivery, reducing missing orders by **13%** and optimizing an **80M+** address system to achieve **95%** delivery accuracy.",
+      "workDescription": "Authored and drove alignment on 2 detailed PRDs and 7 product one-pagers in an accelerated timeline of eight weeks; secured stakeholder buy-in across Business, Engineering, Data Science, and UX Design teams.",
       "keySkills": [
         "Product Strategy",
         "Data Analysis",
@@ -44,7 +44,7 @@
       "title": "AI Research Assistant",
       "subtitle": "SJSU Research Foundation, Explainable AI - Conversational Agents",
       "workTypeId": "3",
-      "workDescription": "Advanced Conversational AI research by reviewing **24+ papers monthly**, developing novel datasets with ChatGPT, and co-authoring conference papers.",
+      "workDescription": "Advanced Conversational AI research by reviewing 24+ papers monthly, developing novel datasets with ChatGPT, and co-authoring conference papers.",
       "keySkills": ["AI Research", "NLP", "Dataset Development", "Python"],
       "dateText": "January 2023 – May 2023"
     },
@@ -52,7 +52,7 @@
       "title": "Teaching Assistant",
       "subtitle": "SJSU, Computer Applications",
       "workTypeId": "3",
-      "workDescription": "Co-managed a Python course for **75+ undergrad students**, improving coding skills through hands-on workshops.",
+      "workDescription": "Co-managed a Python course for 75+ undergrad students, improving coding skills through hands-on workshops.",
       "keySkills": [
         "Python",
         "Teaching",
@@ -65,7 +65,7 @@
       "title": "Chief Technology Officer",
       "subtitle": "SJSU, Indian Student Organization",
       "workTypeId": "4",
-      "workDescription": "Led technical direction and web development using the **MERN stack**, collaborating with a distributed team to integrate various services for university events.",
+      "workDescription": "Led technical direction and web development using the MERN stack, collaborating with a distributed team to integrate various services for university events.",
       "keySkills": ["MERN Stack", "Leadership", "Web", "Collaboration"],
       "dateText": "August 2022 – June 2023"
     },
@@ -73,7 +73,7 @@
       "title": "Software Engineer II",
       "subtitle": "Walmart Global Tech",
       "workTypeId": "1",
-      "workDescription": "Architected **16+ microservices** and re-engineered **8 REST APIs** to **reduce p99 latency by 32%**, while driving initiatives that achieved **2-day delivery for 60% of orders**.",
+      "workDescription": "Architected 16+ microservices and re-engineered 8 REST APIs to reduce p99 latency by 32%, while driving initiatives that achieved 2-day delivery for 60% of orders.",
       "keySkills": [
         "Microservices",
         "System Architecture",
@@ -86,7 +86,7 @@
       "title": "Software Engineer I",
       "subtitle": "IBM India Pvt Ltd",
       "workTypeId": "1",
-      "workDescription": "Developed and maintained a highly available microservices architecture for a large-scale payments platform, handling **8M+ transactions daily**.",
+      "workDescription": "Developed and maintained a highly available microservices architecture for a large-scale payments platform, handling 8M+ transactions daily.",
       "keySkills": [
         "Microservices",
         "Java",
@@ -99,7 +99,7 @@
       "title": "Software Development Intern",
       "subtitle": "Pinapaka IT",
       "workTypeId": "2",
-      "workDescription": "Developed and tested a critical Java middleware component for a payment gateway integration, achieving over **80% unit test coverage** for high reliability.",
+      "workDescription": "Developed and tested a critical Java middleware component for a payment gateway integration, achieving over 80% unit test coverage for high reliability.",
       "keySkills": ["Java", "Middleware", "Unit Testing", "Payment Gateways"],
       "dateText": "May 2017 – March 2018"
     },
@@ -107,7 +107,7 @@
       "title": "IoT Engineering Intern",
       "subtitle": "Miracle Software Systems Inc",
       "workTypeId": "2",
-      "workDescription": "Led a team of 4 to **win a 24-hour live hackathon** and subsequently developed an RFID-enabled IoT ticketing system using Python and Raspberry Pi.",
+      "workDescription": "Led a team of 4 to win a 24-hour live hackathon and subsequently developed an RFID-enabled IoT ticketing system using Python and Raspberry Pi.",
       "keySkills": ["IoT", "Python", "Raspberry Pi", "Prototyping"],
       "dateText": "Jan 2017 – March 2017"
     }
