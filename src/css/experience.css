@@ -1,3 +1,8 @@
+@font-face {
+  font-family: phanisaimunipallifont;
+  src: url(../fonts/everydaysans/EverydaySans-Regular.otf);
+}
+
 /* --- Custom Card Styling inside the Timeline --- */
 .experience-card-content {
   background-color: #ffffff; /* Card background */
