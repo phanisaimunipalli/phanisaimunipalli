@@ -1,6 +1,6 @@
 {
-  "name": "phani-portfolio-v2",
-  "version": "0.1.0",
+  "name": "phanisaimunipalli",
+  "version": "2.0.0",
   "private": true,
   "engines": {
     "node": ">=22.x"
