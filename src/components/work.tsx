@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Chapter } from "./chapter";
 import { ProjectCard } from "./project-card";
+import { ShipLog } from "./ship-log";
 import { projects } from "@/content/site";
 
 function ProjectGrid({ items }: { items: typeof projects }) {
@@ -38,7 +39,9 @@ export function Work() {
           description="AI tools, iOS apps, open source, cloud builds, product research. Newest first. What you see is what shipped."
         />
 
-        <div className="mt-12">
+        <ShipLog />
+
+        <div className="mt-4">
           <ProjectGrid items={projects} />
         </div>
       </div>
