@@ -13,7 +13,7 @@ export function Experience() {
         <Chapter
           number="02"
           name="The Episode Guide"
-          headline={<>Every role. <span className="text-[var(--accent)]">In order.</span></>}
+          headline={<>Every role. <span className="text-[var(--accent)]">The full arc.</span></>}
           description="Full timeline. Startups to IBM to Walmart, software engineering to product management. Most recent first."
         />
 
@@ -33,13 +33,13 @@ export function Experience() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{ duration: 0.4, delay: Math.min(i * 0.04, 0.32) }}
-                className="group grid grid-cols-[60px_1fr] gap-4 px-5 py-6 transition-colors hover:bg-[var(--bg-3)] sm:grid-cols-[80px_200px_1fr] sm:gap-6 sm:px-8"
+                className="group grid grid-cols-1 gap-3 px-5 py-5 transition-colors hover:bg-[var(--bg-3)] sm:grid-cols-[80px_200px_1fr] sm:gap-6 sm:px-8 sm:py-6"
               >
                 <div className="mono text-[11.5px] font-semibold uppercase tracking-[0.14em] text-[var(--muted-2)]">
                   EP {String(total - i).padStart(2, "0")}
                 </div>
 
-                <div className="col-span-1 sm:col-span-1">
+                <div>
                   <div className="mono text-[11.5px] uppercase tracking-[0.14em] text-[var(--muted)]">
                     {e.date}
                   </div>
@@ -61,7 +61,7 @@ export function Experience() {
                   </span>
                 </div>
 
-                <div className="col-span-2 sm:col-span-1">
+                <div>
                   <h3 className="text-[17px] font-semibold leading-tight text-[var(--ink)] sm:text-[18px]">
                     {e.title}
                   </h3>

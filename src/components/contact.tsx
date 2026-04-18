@@ -42,11 +42,10 @@ export function Contact() {
           name="End Credits"
           headline={
             <>
-              Let&apos;s build something <br />
-              <span className="text-[var(--accent)]">worth shipping.</span>
+              Let&apos;s <span className="text-[var(--accent)]">connect.</span>
             </>
           }
-          description="Open to advisory, angel investing, podcast guesting, and collaboration on AI-native products. Pick any channel. I reply to all of them."
+          description="Open to advisory roles, podcast guesting, speaking sessions, and collaboration on AI-native products and research. Pick any channel. I reply to all of them."
         />
 
         <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">

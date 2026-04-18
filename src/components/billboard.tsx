@@ -52,7 +52,7 @@ export function Billboard() {
               <span className="inline-flex h-5 items-center rounded-[2px] bg-[var(--accent)] px-1.5 text-[10px] font-bold text-white">
                 A BIOPIC
               </span>
-              <span className="text-[var(--muted)]">Six years. Two careers. One craft.</span>
+              <span className="text-[var(--muted)]">Six years. One craft.</span>
             </motion.div>
 
             <motion.h1
@@ -147,14 +147,15 @@ export function Billboard() {
                 · Bay Area, CA
               </span>
             </motion.div>
+
           </div>
 
-          {/* Right: Rounded profile photo */}
+          {/* Right: Rounded profile photo — hidden on mobile */}
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="flex justify-center md:justify-end"
+            className="hidden md:flex md:justify-end"
           >
             <div
               className="relative overflow-hidden rounded-full"

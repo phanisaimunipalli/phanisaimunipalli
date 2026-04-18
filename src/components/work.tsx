@@ -24,12 +24,6 @@ function ProjectGrid({ items }: { items: typeof projects }) {
 }
 
 export function Work() {
-  const ai = projects.filter((p) => p.category === "AI");
-  const cloud = projects.filter((p) => p.category === "Cloud" || p.category === "Web");
-  const product = projects.filter(
-    (p) => p.category === "Product" || p.category === "Podcast"
-  );
-
   return (
     <section id="work" className="relative px-4 pt-14 sm:px-10 sm:pt-20">
       <div className="mx-auto w-full max-w-7xl">
@@ -38,36 +32,14 @@ export function Work() {
           name="Built by Phani"
           headline={
             <>
-              Ten+ products. <span className="text-[var(--accent)]">Most solo.</span>
+              Products I shipped <span className="text-[var(--accent)]">on the side.</span>
             </>
           }
-          description="New and old. Side projects, AI tools, cloud builds, academic prototypes. What you see is what shipped."
+          description="AI tools, iOS apps, open source, cloud builds, product research. Newest first. What you see is what shipped."
         />
 
-        <div className="mt-12 space-y-14">
-          <div>
-            <div className="text-center">
-              <h3 className="section-title">Built with AI</h3>
-              <p className="mt-1 text-[13px] text-[var(--muted)]">Products shipped with LLMs and generative tools.</p>
-            </div>
-            <ProjectGrid items={ai} />
-          </div>
-
-          <div>
-            <div className="text-center">
-              <h3 className="section-title">Cloud &amp; Engineering</h3>
-              <p className="mt-1 text-[13px] text-[var(--muted)]">Serverless, cloud-native, and full-stack builds.</p>
-            </div>
-            <ProjectGrid items={cloud} />
-          </div>
-
-          <div>
-            <div className="text-center">
-              <h3 className="section-title">Product &amp; Research</h3>
-              <p className="mt-1 text-[13px] text-[var(--muted)]">Product discovery, user research, and the podcast.</p>
-            </div>
-            <ProjectGrid items={product} />
-          </div>
+        <div className="mt-12">
+          <ProjectGrid items={projects} />
         </div>
       </div>
     </section>

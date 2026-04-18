@@ -5,18 +5,29 @@ import { motion } from "framer-motion";
 import { Chapter } from "./chapter";
 import { about, stats } from "@/content/site";
 
-// Renders **bold** markdown inline.
-function renderBold(text: string) {
-  const parts = text.split(/(\*\*[^*]+\*\*)/g);
-  return parts.map((p, i) =>
-    p.startsWith("**") && p.endsWith("**") ? (
-      <strong key={i} className="font-semibold text-[var(--ink)]">
-        {p.slice(2, -2)}
-      </strong>
-    ) : (
-      <span key={i}>{p}</span>
-    )
-  );
+// Renders **bold** and ^^highlight^^ markdown inline.
+function renderInline(text: string) {
+  const parts = text.split(/(\*\*[^*]+\*\*|\^\^[^^]+\^\^)/g);
+  return parts.map((p, i) => {
+    if (p.startsWith("**") && p.endsWith("**")) {
+      return (
+        <strong key={i} className="font-semibold text-[var(--ink)]">
+          {p.slice(2, -2)}
+        </strong>
+      );
+    }
+    if (p.startsWith("^^") && p.endsWith("^^")) {
+      return (
+        <span
+          key={i}
+          className="rounded-[2px] bg-[var(--accent)] px-1.5 py-0.5 text-[0.92em] font-semibold text-white"
+        >
+          {p.slice(2, -2)}
+        </span>
+      );
+    }
+    return <span key={i}>{p}</span>;
+  });
 }
 
 export function About() {
@@ -45,7 +56,7 @@ export function About() {
                   viewport={{ once: true, margin: "-60px" }}
                   transition={{ duration: 0.5, delay: i * 0.08 }}
                 >
-                  {renderBold(p)}
+                  {renderInline(p)}
                 </motion.p>
               ))}
             </div>
@@ -69,6 +80,7 @@ export function About() {
                 </div>
               ))}
             </dl>
+
           </div>
 
           <div className="md:col-span-5">
@@ -79,7 +91,7 @@ export function About() {
               transition={{ duration: 0.6 }}
               className="relative overflow-hidden rounded-[8px] bg-[var(--bg-2)] sm:sticky sm:top-24"
             >
-              <div className="relative aspect-[4/5] w-full">
+              <div className="relative aspect-[4/5] max-h-[320px] w-full md:max-h-none">
                 <Image
                   src={about.image}
                   alt="Phani"
@@ -108,6 +120,32 @@ export function About() {
                 </div>
               </div>
             </motion.div>
+
+            <motion.a
+              href="https://www.businessinsider.com/how-pivoted-software-engineering-ai-product-management-2025-9"
+              target="_blank"
+              rel="noreferrer"
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.5, delay: 0.15 }}
+              className="group mt-3 flex items-start justify-between gap-4 rounded-[8px] border border-[var(--rule-soft)] bg-[var(--bg-2)] p-4 transition-all hover:border-[var(--accent)] hover:bg-[var(--bg-3)]"
+            >
+              <div>
+                <div className="text-[10px] font-bold uppercase tracking-[0.22em] text-[var(--accent)]">
+                  Featured in
+                </div>
+                <div className="mt-1 text-[15px] font-semibold text-[var(--ink)]">
+                  Business Insider
+                </div>
+                <div className="mt-0.5 text-[12.5px] leading-[1.5] text-[var(--muted)]">
+                  How I pivoted from Software Engineering to AI Product Management
+                </div>
+              </div>
+              <span className="mt-1 shrink-0 text-[var(--muted-2)] transition-all group-hover:translate-x-0.5 group-hover:text-[var(--accent)]">
+                ↗
+              </span>
+            </motion.a>
           </div>
         </div>
       </div>
