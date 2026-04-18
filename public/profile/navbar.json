@@ -1,0 +1,49 @@
+{
+  "logo": {
+    "source": "images/pmlogo.webp",
+    "height": 45,
+    "width": 50
+  },
+  "sections": [
+    {
+      "title": "Home",
+      "href": "/"
+    },
+    {
+      "title": "About",
+      "href": "/about"
+    },
+    {
+      "title": "Skills",
+      "href": "/skills"
+    },
+    {
+      "title": "Education",
+      "href": "/education"
+    },
+    {
+      "title": "Experience",
+      "href": "/experience"
+    },
+
+    {
+      "title": "Products",
+      "href": "/projects"
+    },
+    {
+      "title": "Newsletter",
+      "href": "https://phanisproduct.substack.com",
+      "type": "link"
+    },
+    {
+      "title": "Podcast",
+      "href": "https://open.spotify.com/show/0qh7VRnAXiUqzWEBD87HBN",
+      "type": "link"
+    },
+    {
+      "title": "",
+      "href": "/pdfs/PhaniSaiRam_Munipalli_Resume.pdf",
+      "type": "link"
+    }
+  ]
+}

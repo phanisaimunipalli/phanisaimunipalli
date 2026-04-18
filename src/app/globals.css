@@ -1,26 +1,309 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ------------------------------------------------------------------ */
+/* THEME — light by default, dark via [data-theme="dark"] on <html>   */
+/* ------------------------------------------------------------------ */
+
+:root,
+html[data-theme="light"] {
+  --bg: #ffffff;
+  --bg-1: #fafafa;
+  --bg-2: #f4f4f5;   /* elevated card */
+  --bg-3: #ececee;   /* hover */
+  --bg-4: #e4e4e7;   /* subtle */
+  --ink: #0a0a0a;
+  --ink-2: #1f1f20;
+  --muted: #505058;
+  --muted-2: #6f6f78;
+  --muted-3: #9a9aa2;
+  --accent: #0071EB;
+  --accent-hover: #0057bf;
+  --accent-soft: rgba(0,113,235,0.10);
+  --rule: rgba(10,10,10,0.12);
+  --rule-soft: rgba(10,10,10,0.06);
+  --shadow-card: 0 1px 2px rgba(10,10,10,0.04), 0 10px 28px -10px rgba(10,10,10,0.10);
+  --shadow-lift: 0 6px 14px rgba(10,10,10,0.10), 0 24px 60px -12px rgba(0,113,235,0.25);
+  --billboard-overlay-top: rgba(255,255,255,0);
+  --billboard-overlay-mid: rgba(255,255,255,0.55);
+  --billboard-overlay-btm: rgba(255,255,255,0.95);
+  --top10-stroke: #d4d4d8;
+  color-scheme: light;
+}
+
+html[data-theme="dark"] {
+  --bg: #0b0b0b;
+  --bg-1: #141414;
+  --bg-2: #1a1a1a;
+  --bg-3: #222222;
+  --bg-4: #2a2a2a;
+  --ink: #ffffff;
+  --ink-2: #e5e5e5;
+  --muted: #c0c0c6;
+  --muted-2: #9a9aa2;
+  --muted-3: #6f6f78;
+  --accent: #3a9bff;
+  --accent-hover: #67b3ff;
+  --accent-soft: rgba(58,155,255,0.15);
+  --rule: rgba(255,255,255,0.14);
+  --rule-soft: rgba(255,255,255,0.07);
+  --shadow-card: 0 2px 4px rgba(0,0,0,0.6), 0 12px 28px -8px rgba(0,0,0,0.55);
+  --shadow-lift: 0 8px 20px rgba(0,0,0,0.6), 0 24px 60px -12px rgba(58,155,255,0.3);
+  --billboard-overlay-top: rgba(20,20,20,0);
+  --billboard-overlay-mid: rgba(20,20,20,0.55);
+  --billboard-overlay-btm: rgba(20,20,20,0.95);
+  --top10-stroke: #2a2a2a;
+  color-scheme: dark;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--bg);
+  --color-bg-1: var(--bg-1);
+  --color-bg-2: var(--bg-2);
+  --color-bg-3: var(--bg-3);
+  --color-bg-4: var(--bg-4);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-bebas);
+  --font-mono: var(--font-jetbrains);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+
+html, body {
+  background: var(--bg-1);
+  color: var(--ink);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  transition: background-color 240ms ease, color 240ms ease;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+body { min-height: 100vh; position: relative; overflow-x: hidden; }
+
+::selection { background: var(--accent); color: #fff; }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--bg-1); }
+::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 8px; border: 2px solid var(--bg-1); }
+::-webkit-scrollbar-thumb:hover { background: var(--muted-3); }
+
+/* Billboard bottom fade into page */
+.billboard-fade {
+  background: linear-gradient(
+    180deg,
+    var(--billboard-overlay-top) 0%,
+    var(--billboard-overlay-top) 40%,
+    var(--billboard-overlay-mid) 70%,
+    var(--billboard-overlay-btm) 95%,
+    var(--bg-1) 100%
+  );
 }
+
+/* Left vignette for copy readability on hero */
+.billboard-vignette {
+  background: linear-gradient(
+    90deg,
+    var(--billboard-overlay-btm) 0%,
+    var(--billboard-overlay-mid) 45%,
+    var(--billboard-overlay-top) 85%
+  );
+}
+
+.display {
+  font-family: var(--font-bebas), "Bebas Neue", Impact, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.mono {
+  font-family: var(--font-jetbrains), ui-monospace, "SF Mono", monospace;
+}
+
+/* Chapter marker — "CHAPTER 01 · THE STORY" */
+.chapter-marker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-family: var(--font-bebas), Impact, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.32em;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+.chapter-marker::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  background: var(--accent);
+}
+
+.section-title {
+  font-size: clamp(1.15rem, 2vw, 1.55rem);
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+/* Rail poster hover */
+.poster {
+  transition: transform 320ms cubic-bezier(0.2,0.6,0.2,1),
+              box-shadow 320ms ease,
+              z-index 0s 320ms;
+  will-change: transform;
+}
+.poster:hover {
+  transform: scale(1.06);
+  box-shadow: var(--shadow-lift);
+  z-index: 20;
+  transition: transform 220ms cubic-bezier(0.2,0.6,0.2,1),
+              box-shadow 220ms ease,
+              z-index 0s;
+}
+
+.rail-scroll {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.rail-scroll::-webkit-scrollbar { display: none; }
+
+/* Top 10 numeric — adapts to theme */
+.top10-numeral {
+  font-family: var(--font-bebas), Impact, sans-serif;
+  font-weight: 400;
+  font-size: clamp(9rem, 17vw, 14rem);
+  line-height: 0.82;
+  color: transparent;
+  -webkit-text-stroke: 3px var(--top10-stroke);
+  letter-spacing: -0.05em;
+  user-select: none;
+}
+
+/* Primary CTA (Play-style) — inverts per theme */
+.btn-play {
+  background: var(--ink);
+  color: var(--bg-1);
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 0.65rem 1.4rem;
+  transition: opacity 160ms ease, transform 160ms ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.btn-play:hover { opacity: 0.85; }
+
+/* Secondary translucent */
+.btn-more {
+  background: color-mix(in oklab, var(--ink) 12%, transparent);
+  color: var(--ink);
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 0.65rem 1.4rem;
+  transition: background 160ms ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  border: 1px solid var(--rule);
+}
+.btn-more:hover {
+  background: color-mix(in oklab, var(--ink) 18%, transparent);
+}
+
+/* Accent CTA (blue) */
+.btn-blue {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 0.65rem 1.4rem;
+  transition: background 160ms ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.btn-blue:hover { background: var(--accent-hover); }
+
+/* Focus */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Rail arrow buttons */
+.rail-arrow {
+  background: color-mix(in oklab, var(--bg-1) 82%, transparent);
+  color: var(--ink);
+  backdrop-filter: blur(6px);
+  transition: background 160ms ease;
+}
+.rail-arrow:hover {
+  background: color-mix(in oklab, var(--bg-1) 96%, transparent);
+}
+
+/* Chip */
+.chip {
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--rule);
+  padding: 3px 8px;
+  border-radius: 3px;
+  background: var(--bg-2);
+}
+
+/* Card surface */
+.card {
+  background: var(--bg-2);
+  border: 1px solid var(--rule-soft);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+}
+
+/* Ink link with animated blue underline */
+.link-ink {
+  color: var(--ink);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklab, var(--accent) 50%, transparent);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  transition: text-decoration-color 160ms ease, text-decoration-thickness 160ms ease;
+}
+.link-ink:hover {
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2.5px;
+}
+
+/* Rotating role text */
+@keyframes roleIn {
+  0%   { opacity: 0; transform: translateY(12px); }
+  10%  { opacity: 1; transform: translateY(0); }
+  90%  { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-12px); }
+}
+
+/* Light-theme helper — duotone blue on photos */
+.duotone-blue {
+  filter: contrast(1.05) brightness(1.02);
+}
+html[data-theme="light"] .duotone-blue {
+  filter: grayscale(0.15) contrast(1.05);
+}
+
+/* Shift animation for backgrounds */
+@keyframes shift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.bg-shift { background-size: 200% 200%; animation: shift 18s ease infinite; }
+
+/* Hide until theme resolved (prevents flash) */
+html.theme-loading body { visibility: hidden; }

@@ -1,0 +1,45 @@
+{
+  "education": [
+    {
+      "title": "Aug 2022 - May 2024",
+      "cardTitle": "Master's Degree in Software Engineering",
+      "cardSubtitle": "San José State University, California, USA",
+      "cardDetailedText": [
+        "Key Courses:",
+        "1. Enterprise Software Platforms",
+        "2. Cloud Technologies",
+        "3. Machine Learning"
+      ],
+      "icon": {
+        "src": "images/about/phaniicon.png"
+      }
+    },
+    {
+      "title": "Aug 2013 - May 2017",
+      "cardTitle": "Bachelor's Degree in Computer Science and Engineering",
+      "cardSubtitle": "Jawaharlal Nehru Technological University, Kakinada (JNTUK)",
+      "cardDetailedText": [],
+      "icon": {
+        "src": "images/about/phaniicon.png"
+      }
+    },
+    {
+      "title": "June 2011 - June 2013",
+      "cardTitle": "Senior High School",
+      "cardSubtitle": "Narayana Jr College, Vijayawada, India",
+      "cardDetailedText": ["(Maths.Physics.Chemistry)"],
+      "icon": {
+        "src": "images/about/phaniicon.png"
+      }
+    },
+    {
+      "title": "May 2011",
+      "cardTitle": "Junior High School",
+      "cardSubtitle": "Rushi Vidya Sadan, Vijayawada, India",
+      "cardDetailedText": "",
+      "icon": {
+        "src": "images/about/phaniicon.png"
+      }
+    }
+  ]
+}

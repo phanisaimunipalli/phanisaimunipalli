@@ -1,0 +1,183 @@
+{
+  "projects": [
+    {
+      "title": "InSearch",
+      "bodyText": "AWS InSearch is a Serverless App powered by AWS Lambda and AWS Rekognition which can detect items and get labels from the image uploaded into S3 Bucket.",
+      "links": [
+        {
+          "text": "More About InSearch",
+          "href": "https://github.com/phanisaimunipalli/aws-insearch"
+        }
+      ],
+      "tags": [
+        "October 2022",
+        "Serverless Framework",
+        "IAM",
+        "AWS Rekognition",
+        "AWS S3",
+        "EC2",
+        "Elastic BeanStalk",
+        "CloudWatch",
+        "AWS Lambda"
+      ]
+    },
+    {
+      "title": "AWS QR Saver",
+      "bodyText": "QR Saver is powered by AWS CodeStar and developed as part of CMPE-281 Project assignment leveraging AWS Cloud services, deployed by AWS CloudFormation to AWS Elastic Bean Stalk and Amazon API Gateway.",
+      "links": [
+        {
+          "text": "QR Saver",
+          "href": "https://github.com/phanisaimunipalli/AWS-QR-Saver"
+        }
+      ],
+      "tags": [
+        "October 2022",
+        "Embedded Javascript",
+        "NodeJS",
+        "Express",
+        "AWS Dynamo DB",
+        "AWS S3",
+        "EC2",
+        "Elastic BeanStalk",
+        "CloudWatch",
+        "Lambda",
+        "Elastic Load Balancer"
+      ]
+    },
+    {
+      "title": "ISO-SJSU Web",
+      "bodyText": "A web application built using MERN stack to provide all kinds of information to Indian Students studying in San Jose State University.",
+      "tags": [
+        "ISO-SJSU",
+        "Information Hub",
+        "Volunteer",
+        "React + NextJS",
+        "JetPack",
+        "Re-Branded ISO-SJSU",
+        "Theme of SJSU"
+      ]
+    },
+    {
+      "title": "Rx Audit Dashboard",
+      "bodyText": "A dashboard to view the real-time ASNs(Advance Shipping Notice) sent by Walmart's Pharmacy suppliers. This will help business stakeholders and teams to search for particular orders and view the metrics on hourly and daily basis.\n\n**Roles and Responsibilities:**\n - Build a React Dashboard adhering to Walmart's internal standards.\n - Developed Performance rich REST APIs after extracting the resultset from the Azure DB.\n - Write Queries to fetch required data and fine-tune them using different indexing strategies and concepts.",
+      "tags": [
+        "2022",
+        "Walmart Global Tech India",
+        "React",
+        "React Native",
+        "JetPack",
+        "Azure SQL",
+        "Kubernetes",
+        "Azure Storage",
+        "Azure Cloud",
+        "Docker"
+      ]
+    },
+    {
+      "title": "WFS (Walmart Fulfillment Services)",
+      "bodyText": "Implemented an Enterprise Service Bus (ESB) for eCommerce orders by leveraging Walmart’s 1P capabilities with 3P sellers by developing WFS (Walmart Fulfillment Services) with numerous routes **enabling the two-day delivery across the USA**.\n\n**Roles and Responsibilities:**\n - Worked with around 8 teams to bring this to reality and I am **responsible for 40+ interface routes** going through our component.\n - Various data exchange mediums like SFTP, IBM MQs, AMQs, and Kafka are integrated with multiple upstream and downstream systems.\n - Huge volume of **files(>30,000 per hour) carrying real-time data** is handled by the ESB.",
+      "links": [
+        {
+          "text": "WFS Portal",
+          "href": "https://marketplace.walmart.com/walmart-fulfillment-services/"
+        }
+      ],
+      "tags": [
+        "2021",
+        "Walmart Global Tech India",
+        "Python",
+        "Java",
+        "Microservices",
+        "Apache Camel",
+        "Kafka",
+        "IBM MQ",
+        "Enterprise Integration Patterns",
+        "CQRS",
+        "Azure Cloud",
+        "Kubernetes",
+        "Linux"
+      ]
+    },
+    {
+      "title": "GDM (Global Delivery Management)",
+      "bodyText": "GDM is a Global Delivery Management system which manages the deliveries placed by the vendors from the process of scheduling the orders and till the loads are received at Distribution Centers(DC) by the DC associates.\n\n There are different types of DCs and accordingly different types of deliveries like groceries, electronics, fashion products etc.., GDM is the entry point of the whole process.\n\n**Roles and Responsibilities:**\n - Developing highly scalable APIs for creation of the data incoming and to provide performance rich experience while fetching the data from the application.\n - Continuously analyzing the performance of APIs and finding the **better indexing strategies.**",
+      "tags": [
+        "2020",
+        "Walmart Global Tech India",
+        "Java",
+        "Microservices",
+        "Angular",
+        "Kafka",
+        "Active MQ",
+        "Spring Integration",
+        "CQRS"
+      ]
+    },
+    {
+      "title": "ROME(Revenue Opportunity Management Enterprise)",
+      "bodyText": "ROME is a Customer Relationship Management front end application of AT&T. DSL&MS is the sub application name of a middleware that facilitates communication between ROME and various other Partner Systems of AT&T. It deals with both Client and Server for consuming and providing web services for the same.\n\n**Roles & Responsibilities:**\n - Implement REST APIs and SOAP Webservices along with Pub-Sub model data exchange medium as per the requirement and creating WSDL file and schema as per business requirements.\n - Participate in development of the system test plan and support production deployments by identifying the issues, debugging and creating hot fixes to enable a seamless experience for users.\n - Perform deployments and monitor applications using CI/CD pipeline along with generating Docker images and maintenance of Kubernetes clusters.",
+      "tags": [
+        "2018-2020",
+        "IBM India Pvt Ltd",
+        "J2EE",
+        "Java",
+        "Microservices",
+        "SOAP Webservices",
+        "WSDL",
+        "Docker",
+        "AT&T DME2",
+        "Bitbucket",
+        "Azure Cloud",
+        "Kubernetes"
+      ]
+    },
+    {
+      "title": "Lemonade",
+      "bodyText": "LEMONADE is a front-end Angular application that resembles the exact look & feel of Salesforce CRM to embed this customized application inside Salesforce to provide enhanced features as per business requirements. This is a unique architecture which involves end to end lightweight APIs to deliver the data from Solr DB in millions with rich performance.\n\n**Roles & Responsibilities:**\n - Research and Developing Angular Components by calling REST Microservices from the front end. \n - Implementing REST APIs and deploying through Jenkins CI Pipeline which implements the DevOps methodology. \n - Deploying applications into Kubernetes and maintenance of pods ",
+      "tags": [
+        "2020",
+        "IBM India Pvt Ltd",
+        "Salesforce",
+        "Mirco Front-End Architecture",
+        "Angular",
+        "Solr Database",
+        "Elastic Search"
+      ]
+    },
+    {
+      "image": "images/projects/cover.png",
+      "title": "The Webzine (e-Magazine)",
+      "bodyText": "An Online Magazine is a web app made using **Web Technologies** for **NRI Institute of Technology** Students. Students can checkout the Webzine to find latest information about the instituion and showcase their special talents with weekly competitions held online.\n - Added User authentication using **OAuth**.\n - Deployed on **000WebHost** using **FileZilla**.",
+      "tags": [
+        "HTML5",
+        "CSS",
+        "BootStrap",
+        "jQuery",
+        "Ajax",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
+      "image": "images/projects/solution.png",
+      "title": "Let's Find The Solution",
+      "bodyText": "A Web App that **built for collecting solutions** to problems rather than waiting for someone to come and help with solution.\n - People can just share their solution for any problem in the university area with their college account.\n - Using this, university community solved 12 problems in less than 2 months.",
+      "tags": [
+        "Java",
+        "Android",
+        "HTML5",
+        "Bootstrap",
+        "Ajax",
+        "JavaScript",
+        "PHP",
+        "MySQL"
+      ]
+    },
+    {
+      "title": "The Web Journal",
+      "bodyText": "People can log their travel history into this online jorunal\n - Designed to learn Vue.js as my learning.\n - Uses **PostgreSQL** database to store entries.\n - Secured with **Github Auth**.",
+      "tags": ["React", "Vue", "Heroku", "Postgres SQL", "Prisma"]
+    }
+  ]
+}
