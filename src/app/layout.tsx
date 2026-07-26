@@ -23,22 +23,22 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Phani Sai Ram Munipalli · Product Manager",
+  title: "Phani Sai Ram Munipalli · Senior Product Manager",
   description:
-    "Product Manager in the Bay Area. 6 years shipping software at IBM and Walmart. I build with AI, write a weekly newsletter, and host The Hustle Chapters podcast.",
+    "Senior Product Manager in the Bay Area. 6 years shipping software at IBM and Walmart. I build with AI, write a weekly newsletter, and host The Hustle Chapters podcast.",
   openGraph: {
-    title: "Phani Sai Ram Munipalli · Product Manager",
+    title: "Phani Sai Ram Munipalli · Senior Product Manager",
     description:
-      "Product Manager. 6 years shipping software. Builder, writer, podcast host.",
+      "Senior Product Manager. 6 years shipping software. Builder, writer, podcast host.",
     url: "https://www.phanisaimunipalli.me",
     siteName: "Phani Sai Ram Munipalli",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Phani Sai Ram Munipalli · Product Manager",
+    title: "Phani Sai Ram Munipalli · Senior Product Manager",
     description:
-      "Product Manager. 6 years shipping software. Builder, writer, podcast host.",
+      "Senior Product Manager. 6 years shipping software. Builder, writer, podcast host.",
   },
 };
 

@@ -94,7 +94,7 @@ export function Billboard() {
               transition={{ duration: 0.55, delay: 0.42 }}
               className="mt-5 max-w-xl text-[15.5px] leading-[1.65] text-[var(--muted)] sm:text-[17px]"
             >
-              Product Manager in the Bay Area. Six years shipping software at
+              Senior Product Manager in the Bay Area. Six years shipping software at
               IBM and Walmart. Four as an engineer, two as a PM. On the side,
               I build with AI, write{" "}
               <a

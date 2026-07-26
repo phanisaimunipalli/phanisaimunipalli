@@ -4,14 +4,14 @@
 export const site = {
   name: "Phani Sai Ram Munipalli",
   shortName: "Phani",
-  tagline: "Product Manager · Software Engineer · Author · Podcast Host",
+  tagline: "Senior Product Manager · Software Engineer · Author · Podcast Host",
   location: "Bay Area, California",
   email: "phanisaimunipalli@gmail.com",
   heroImage: "/images/about/phanisairam_home_image.PNG",
   heroImageCircle: "/images/about/phanisairam_home_image_circle.PNG",
   aboutImage: "/images/about/phani_about1.png",
   roles: [
-    "a Product Manager",
+    "a Senior Product Manager",
     "a Software Engineer",
     "an Author",
     "a Founder & Podcast Host",
@@ -32,7 +32,7 @@ export const site = {
 // About toverbatim from about.json, with markdown bold converted inline.
 export const about = {
   paragraphs: [
-    "Hello! I'm **Phani Sai Ram Munipalli**, a Product Manager in the Bay Area. For the past **6 years**, I've been dedicated to building and shipping technology products. From the fast-paced environment of startups to the scale of industry leaders like IBM & Walmart.",
+    "Hello! I'm **Phani Sai Ram Munipalli**, a Senior Product Manager in the Bay Area. For the past **6 years**, I've been dedicated to building and shipping technology products. From the fast-paced environment of startups to the scale of industry leaders like IBM & Walmart.",
     "My career began at the heart of technology. In Software Engineering. This hands-on experience gave me a ^^fundamental understanding of what it takes to build great products^^ from the ground up and sparked my passion for bridging the gap between technical execution and strategic vision.",
     "My philosophy is that the most successful products are built on a foundation of deep user empathy. My approach is always to start with the customer, collaborating closely with Data, Engineering, Design and Business teams to translate user insights into elegant and impactful solutions.",
     "My background provides a distinct advantage: I am fluent in the languages of both product and engineering. This allows me to architect a compelling product vision while understanding the technical nuances, foster seamless collaboration between technical and non-technical teams, and ^^ensure we not only design the right product but also build the product right^^.",
@@ -53,12 +53,21 @@ export type ExperienceItem = {
 // Experiences toverbatim, with PM III description omitted (internal).
 export const experiences: ExperienceItem[] = [
   {
+    title: "Senior Product Manager",
+    company: "Walmart · U.S. Last Mile Delivery",
+    workType: "Full-Time",
+    // Description intentionally omitted: Walmart internal.
+    skills: ["AI/ML", "Cross-Functional Leadership", "Product Strategy"],
+    date: "May 2026 to Present",
+    kind: "PM",
+  },
+  {
     title: "Product Manager III",
     company: "Walmart · U.S. Last Mile Delivery",
     workType: "Full-Time",
     // Description intentionally omitted toWalmart internal.
     skills: ["AI/ML", "Cross-Functional Leadership", "Product Strategy"],
-    date: "July 2024 to Present",
+    date: "July 2024 to May 2026",
     kind: "PM",
   },
   {
