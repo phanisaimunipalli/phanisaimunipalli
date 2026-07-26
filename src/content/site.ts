@@ -50,13 +50,15 @@ export type ExperienceItem = {
   kind: "PM" | "SWE" | "EDU";
 };
 
-// Experiences toverbatim, with PM III description omitted (internal).
+// Experiences verbatim. Walmart descriptions are scope only, no internal
+// metrics, parameters, or system names.
 export const experiences: ExperienceItem[] = [
   {
     title: "Senior Product Manager",
     company: "Walmart · U.S. Last Mile Delivery",
     workType: "Full-Time",
-    // Description intentionally omitted: Walmart internal.
+    description:
+      "Leading the driver promotions platform for supply and demand optimization in last mile delivery.",
     skills: ["AI/ML", "Cross-Functional Leadership", "Product Strategy"],
     date: "May 2026 to Present",
     kind: "PM",
@@ -65,7 +67,8 @@ export const experiences: ExperienceItem[] = [
     title: "Product Manager III",
     company: "Walmart · U.S. Last Mile Delivery",
     workType: "Full-Time",
-    // Description intentionally omitted toWalmart internal.
+    description:
+      "Led location intelligence optimization, built identity verification experience for gig drivers, and owned the driver promotions platform.",
     skills: ["AI/ML", "Cross-Functional Leadership", "Product Strategy"],
     date: "July 2024 to May 2026",
     kind: "PM",
