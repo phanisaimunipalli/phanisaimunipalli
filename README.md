@@ -2,35 +2,69 @@
 
 ## 💫 Welcome to My GitHub
 
-👨🏻 Pronouns: He/Him/His<br> ✅ Product Manager @ Walmart.<br>🏅 Finalist of Silicon Valley Innovation Challenge (SVIC) 2022.<br>👨🏻‍🎓 Master's in Software Engineering.<br>👯 Open to connect over a virtual coffee chat & talk about Your Favorite Product.<br>💬 Run a Query about Technology, Product-Led, and Anecdotal Data Stories.<br>📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/iamphanisairam/) & [Topmate](https://topmate.io/iamphanisairam) <br>⚡ Fun fact: I host a Podcast that garnered community from 6 countries.
+**Senior Product Manager @ Walmart.** I ship products in public. iOS apps on the App Store, plus open source developer tools for AI agents.
 
-## 💻 My Recent Products
+🌍 Open source contributor to [NVIDIA NemoClaw](https://github.com/NVIDIA/NemoClaw).<br>👨🏻‍🎓 Master's in Software Engineering, San José State University.<br>👯 Open to connect over a virtual coffee chat & talk about Your Favorite Product.<br>💬 Run a Query about AI agents, developer tooling, Product Led growth, and Anecdotal Data Stories.<br>📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/iamphanisairam/) & [Topmate](https://topmate.io/iamphanisairam)<br>⚡ Fun fact: I host a Podcast that garnered community from 6 countries.
 
-- [SafeWord AI - Powered by Gemini](https://safewordai.vercel.app/) (July 2024 - Present)
-- [LinkPlus - Powered by GPT-4o](https://linkplus.vercel.app) (Sep 2023 - Present)
-- [GiftGen](https://github.com/phanisaimunipalli/giftgen) (Jan 2023)
-- [JustInsights](https://github.com/phanisaimunipalli/justinsights) (Dec 2022)
-- TeamZone (Dec 2022)
-  - [TeamZone Frontend](https://github.com/phanisaimunipalli/teamzone-frontend)
-  - [TeamZone Backend](https://github.com/phanisaimunipalli/teamzone-backend)
-- [In Search](https://github.com/phanisaimunipalli/aws-insearch) (Oct 2022)
-- [QR Saver](https://github.com/phanisaimunipalli/AWS-QR-Saver) (Oct 2022)
+## 💻 What I'm Building
 
-## 🌐 Socials:
+### 🚀 Shipped & Live
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/iamphanisairam) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/cloud9writings)
-[![Topmate](https://img.shields.io/badge/Calendly-006bff?logo=calendly&logoColor=white)](https://topmate.io/iamphanisairam)
+| Project | What it does | |
+|---|---|---|
+| **Knoted** | Location locked local tips. Leave a note at a place, and the next person standing there finds it | [App Store](https://apps.apple.com/us/app/knoted-local-secrets-near-me/id6761508441) · [site](https://knoted-web.vercel.app) |
+| **Claude Wrapped** | Turns your local Claude Code history into a shareable scorecard. Persona, tokens, peak hours | [live](https://claudewrapped.vercel.app) · [repo](https://github.com/phanisaimunipalli/claudewrapped) |
+| **Daily Lenny** | Automated newsletter engine that curates wisdom from the best product minds | [live](https://dailylenny.vercel.app) · [repo](https://github.com/phanisaimunipalli/dailylenny) |
+| **Startup Sunsets** | Billion dollar startup failures, turned into a library of lessons | [live](https://startupsunsets.vercel.app) · [repo](https://github.com/phanisaimunipalli/startupsunsets) |
+| **Locant** | Matches local search intent against local supply to surface invisible market gaps | [live](https://locant.vercel.app) · [repo](https://github.com/phanisaimunipalli/locant) |
+
+### 🤖 Infrastructure for AI Agents
+
+| Project | What it does | |
+|---|---|---|
+| **glide** | Latency aware model cascade. Switches to a faster model when yours is slow, before you time out | [repo](https://github.com/phanisaimunipalli/glide) ⭐ |
+| **llm-circuit** | Circuit breaker pattern for agentic workflows. Automatic failover from Claude to local Ollama when the API goes down | [repo](https://github.com/phanisaimunipalli/llm-circuit) |
+| **symm** | Detects and corrects API drift in Python that an LLM wrote, after generation | [repo](https://github.com/phanisaimunipalli/symm) |
+| **agentrace** | Hooks into Claude Code sessions, logs every tool call, spots repeated failures, and proposes CLAUDE.md rules to prevent them | [repo](https://github.com/phanisaimunipalli/agentrace) |
+| **passlogue** | Human readable identifiers for multi agent systems. Zero dependencies, entropy scored | [repo](https://github.com/phanisaimunipalli/passlogue) |
+| **trender** | v0.dev for your terminal. Pipe agent JSON, get live tables, charts, and stat cards in your CLI | [repo](https://github.com/phanisaimunipalli/trender) |
+
+### 🛠 Developer Tools
+
+| Project | What it does | |
+|---|---|---|
+| **ClipStack** | Menu bar clipboard history for macOS. Global hotkey, searchable, pastes straight into your active app | [repo](https://github.com/phanisaimunipalli/clipstack) |
+| **brandnamer** | Category king brand name generator. Neologism, short form, and phonetic rules as a CLI | [repo](https://github.com/phanisaimunipalli/brandnamer) |
+| **Unicorn** | Startup simulation game for iOS. Build a company from garage to unicorn | [repo](https://github.com/phanisaimunipalli/unicorn) |
+| **Dhvani** | Real time YouTube dubbing with voice cloning and emotion preservation. Built at the Boson × Eigen AI Hackathon | [repo](https://github.com/phanisaimunipalli/dhvani-higgs) |
+
+### 🌍 Open Source Contributions
+
+- **[NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw)**, [#1066 merged](https://github.com/NVIDIA/NemoClaw/pull/1066): forced IPv4 DNS resolution on WSL2 to fix bridge processes silently dying on start
+- **[code_puppy](https://github.com/mpfaffenberger/code_puppy)**, [#252](https://github.com/mpfaffenberger/code_puppy/pull/252): Slack bot integration and mobile web UI *(in review)*
+
+<details>
+<summary><b>Earlier work (2022 to 2024)</b></summary>
+
+<br>
+
+- [SafeWord AI](https://safewordai.vercel.app/), a passphrase generator powered by Gemini (July 2024)
+- [LinkPlus](https://linkplus.vercel.app), a LinkedIn headline generator powered by GPT-4o (Sep 2023)
+- [GiftGen](https://github.com/phanisaimunipalli/giftgen), a personalized gift recommender (Jan 2023)
+- [JustInsights](https://github.com/phanisaimunipalli/justinsights), a credit and debit transaction analyzer (Dec 2022)
+- TeamZone, an enterprise social platform ([frontend](https://github.com/phanisaimunipalli/teamzone-frontend) · [backend](https://github.com/phanisaimunipalli/teamzone-backend)) (Dec 2022)
+- [In Search](https://github.com/phanisaimunipalli/aws-insearch), serverless image search on AWS Lambda and Rekognition (Oct 2022)
+- [QR Saver](https://github.com/phanisaimunipalli/AWS-QR-Saver), a cloud QR code vault (Oct 2022)
+
+🏅 Finalist, Silicon Valley Innovation Challenge (SVIC) 2022
+
+</details>
+
+## 🌐 Socials
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/iamphanisairam) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/cloud9writings) [![Topmate](https://img.shields.io/badge/Topmate-FF3C5F?logo=googlemeet&logoColor=white)](https://topmate.io/iamphanisairam)
 ![Profile Views](https://komarev.com/ghpvc/?username=phanisaimunipalli&style=round-square)
 
-# 💻 Tech Stack:
+## 💻 Tech Stack
 
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=azure-devops&logoColor=white) ![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Ant-Design](https://img.shields.io/badge/-AntDesign-%230170FE?style=for-the-badge&logo=ant-design&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Chakra](https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&logo=chakraui&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Semantic UI React](https://img.shields.io/badge/Semantic%20UI%20React-%2335BDB2.svg?style=for-the-badge&logo=SemanticUIReact&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white) ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apache Ant](https://img.shields.io/badge/Apache%20Ant-A81C7D?style=for-the-badge&logo=Apache%20Ant&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![ApacheCassandra](https://img.shields.io/badge/cassandra-%231287B1.svg?style=for-the-badge&logo=apache-cassandra&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Sever-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Adobe Illustrator](https://img.shields.io/badge/adobeillustrator-%23FF9A00.svg?style=for-the-badge&logo=adobeillustrator&logoColor=white) ![Sketch](https://img.shields.io/badge/Sketch-FFB387?style=for-the-badge&logo=sketch&logoColor=black) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Confluence](https://img.shields.io/badge/confluence-%23172BF4.svg?style=for-the-badge&logo=confluence&logoColor=white) ![CMake](https://img.shields.io/badge/CMake-%23008FBA.svg?style=for-the-badge&logo=cmake&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white) ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)
-
-
-### ✍️ Random Dev Quote
-
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light)
-
-[![](https://visitcount.itsvg.in/api?id=phanisaimunipalli&icon=4&color=1)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![SwiftUI](https://img.shields.io/badge/SwiftUI-0071e3?style=for-the-badge&logo=swift&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white) ![Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?style=for-the-badge&logo=googlegemini&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
