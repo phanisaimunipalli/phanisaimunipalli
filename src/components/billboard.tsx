@@ -94,25 +94,18 @@ export function Billboard() {
               transition={{ duration: 0.55, delay: 0.42 }}
               className="mt-5 max-w-xl text-[15.5px] leading-[1.65] text-[var(--muted)] sm:text-[17px]"
             >
-              Senior Product Manager in the Bay Area. Six years shipping software at
-              IBM and Walmart. Four as an engineer, two as a PM. On the side,
-              I build with AI, write{" "}
+              Engineer for four years, product manager since. By day I build
+              the driver promotions platform at Walmart last mile delivery,
+              for hundreds of thousands of gig drivers. By night I build the
+              tools AI agents are missing. Model cascades, failover, and
+              session tracing, all open source and on{" "}
               <a
-                href={site.links.newsletter}
+                href={site.links.github}
                 target="_blank"
                 rel="noreferrer"
                 className="link-ink"
               >
-                Phani&apos;s Product
-              </a>
-              , and host{" "}
-              <a
-                href={site.links.podcastAll}
-                target="_blank"
-                rel="noreferrer"
-                className="link-ink"
-              >
-                The Hustle Chapters
+                GitHub
               </a>
               .
             </motion.p>
