@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hum Together Support</title>
+<meta name="description" content="Help for Hum Together: pairing, sending songs, the widget, and fixes for common problems.">
+<meta name="color-scheme" content="light dark">
+<style>
+  /* Plain system type, size specific tracking, rem spacing so it scales with the reader's text size. */
+  :root {
+    --bg: #fbf8fb;
+    --fg: #231a2e;
+    --muted: #675d77;
+    --line: #e6dceb;
+    --accent: #d93d68;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14101a;
+      --fg: #f1eaf6;
+      --muted: #a99dba;
+      --line: #342a42;
+      --accent: #ff7b9c;
+      --card: #1e1827;
+    }
+  }
+  @media (prefers-contrast: more) {
+    :root { --muted: var(--fg); --line: var(--fg); }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 100%/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+    padding: max(1.25rem, env(safe-area-inset-top)) max(1.25rem, env(safe-area-inset-right))
+             max(3rem, env(safe-area-inset-bottom)) max(1.25rem, env(safe-area-inset-left));
+  }
+  main { max-width: 40rem; margin: 0 auto; }
+
+  .top { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding-block: 0.5rem 2rem; font-size: 0.9375rem; }
+  .top strong { letter-spacing: 0.01em; }
+  a { color: var(--accent); text-decoration-thickness: 0.08em; text-underline-offset: 0.2em; transition: opacity 120ms ease-out; }
+  a:hover { opacity: 0.8; }
+  a:active { opacity: 0.6; }
+  a:focus-visible { outline: 0.1875rem solid var(--accent); outline-offset: 0.2rem; border-radius: 0.2rem; }
+
+  h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.08; letter-spacing: -0.025em; margin: 0 0 0.75rem; text-wrap: balance; }
+  h2 { font-size: 1.375rem; line-height: 1.2; letter-spacing: -0.015em; margin: 2.5rem 0 0.5rem; }
+  p, li { margin: 0 0 0.9rem; max-width: 65ch; }
+  ul { padding-left: 1.25rem; margin: 0 0 0.9rem; }
+  li { margin-bottom: 0.4rem; }
+  .meta { color: var(--muted); font-size: 0.9375rem; margin-bottom: 1.5rem; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-radius: 1rem; padding: 1rem 1.25rem; margin: 1.5rem 0 0; }
+  .summary p { margin: 0; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9375rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <strong>Hum Together</strong>
+    <a href="https://www.phanisaimunipalli.me/">phanisaimunipalli.me</a>
+  </div>
+
+  <h1>Support</h1>
+  <p class="meta">Hum Together needs an iPhone with iOS 17 or later and an Apple Account signed in to iCloud.</p>
+
+  <div class="summary">
+    <p><strong>Need a hand?</strong> Email <a href="mailto:phanisaimunipalli@gmail.com">phanisaimunipalli@gmail.com</a> and tell me what you see on the screen. A screenshot helps. I read every message.</p>
+  </div>
+
+  <h2>Getting started</h2>
+  <ul>
+    <li>One of you taps Create a code in Hum and sends the code to the other.</li>
+    <li>The other taps I have a code and types it in. A code has 6 letters and numbers, and a pair has room for two people.</li>
+    <li>Each of you picks the music app you listen with, so a song opens in your own app.</li>
+  </ul>
+
+  <h2>Sending a song</h2>
+  <ul>
+    <li>Open Spotify, Apple Music or YouTube Music and find a song.</li>
+    <li>Tap Share, then choose Hum. If you do not see Hum, scroll the row of apps and tap More.</li>
+    <li>After it says Sent, you can tap a mood to say how the song feels. This is optional.</li>
+  </ul>
+
+  <h2>Adding the widget</h2>
+  <ul>
+    <li>Touch and hold an empty spot on your home screen, then tap the plus at the top left.</li>
+    <li>Search for Hum, pick a size, and tap Add Widget.</li>
+    <li>Tap the heart on the widget to like the song without opening the app.</li>
+  </ul>
+
+  <h2>Common problems</h2>
+
+  <p><strong>"That doesn't look like a song link."</strong><br>
+  Share a single song, not an album, a playlist or an artist page. In Apple Music, share the song itself.</p>
+
+  <p><strong>"Couldn't send. Check your internet and iCloud."</strong><br>
+  Check that you are online and signed in to iCloud in Settings. The message ends with a short code in brackets. Include it if you email me.</p>
+
+  <p><strong>"Your partner hasn't joined yet."</strong><br>
+  Your partner needs to enter your code first. Check that they typed it correctly.</p>
+
+  <p><strong>"We couldn't find that code" or "That pair already has two people."</strong><br>
+  Ask your partner to read the code out again. A pair holds exactly two people, so a third person cannot join.</p>
+
+  <p><strong>The widget did not change.</strong><br>
+  iOS decides when widgets refresh, so it can take a little while. Opening Hum refreshes it right away. Allowing notifications means you get a banner the moment a song arrives.</p>
+
+  <p><strong>No banner when a song arrives.</strong><br>
+  Open Settings, then Notifications, then Hum Together, and allow notifications. Banners are not shown while Hum is open on screen.</p>
+
+  <p><strong>The 30 second preview played a different version.</strong><br>
+  The preview is matched by title and artist, so it can be a close match rather than the exact recording.</p>
+
+  <h2>Leaving a pair and deleting your data</h2>
+  <p>Open Settings in Hum to unpair. That removes your place in the pair and the pairing saved on your phone. To have everything stored for your pair deleted, email me the pair code and I will remove it within 30 days. The <a href="/hum/privacy.html">privacy policy</a> explains what is stored.</p>
+
+  <footer>
+    <p>Hum Together is made by Phani Sai Ram Munipalli. It is not affiliated with Spotify, Apple Music or YouTube Music.</p>
+  </footer>
+</main>
+</body>
+</html>
