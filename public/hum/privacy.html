@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hum Together Privacy Policy</title>
+<meta name="description" content="How Hum Together stores and shares the songs you send your partner, and what it never collects.">
+<meta name="color-scheme" content="light dark">
+<style>
+  /* Plain system type, size specific tracking, rem spacing so it scales with the reader's text size. */
+  :root {
+    --bg: #fbf8fb;
+    --fg: #231a2e;
+    --muted: #675d77;
+    --line: #e6dceb;
+    --accent: #d93d68;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14101a;
+      --fg: #f1eaf6;
+      --muted: #a99dba;
+      --line: #342a42;
+      --accent: #ff7b9c;
+      --card: #1e1827;
+    }
+  }
+  @media (prefers-contrast: more) {
+    :root { --muted: var(--fg); --line: var(--fg); }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 100%/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: antialiased;
+    padding: max(1.25rem, env(safe-area-inset-top)) max(1.25rem, env(safe-area-inset-right))
+             max(3rem, env(safe-area-inset-bottom)) max(1.25rem, env(safe-area-inset-left));
+  }
+  main { max-width: 40rem; margin: 0 auto; }
+
+  .top { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding-block: 0.5rem 2rem; font-size: 0.9375rem; }
+  .top strong { letter-spacing: 0.01em; }
+  a { color: var(--accent); text-decoration-thickness: 0.08em; text-underline-offset: 0.2em; transition: opacity 120ms ease-out; }
+  a:hover { opacity: 0.8; }
+  a:active { opacity: 0.6; }
+  a:focus-visible { outline: 0.1875rem solid var(--accent); outline-offset: 0.2rem; border-radius: 0.2rem; }
+
+  h1 { font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.08; letter-spacing: -0.025em; margin: 0 0 0.75rem; text-wrap: balance; }
+  h2 { font-size: 1.375rem; line-height: 1.2; letter-spacing: -0.015em; margin: 2.5rem 0 0.5rem; }
+  p, li { margin: 0 0 0.9rem; max-width: 65ch; }
+  ul { padding-left: 1.25rem; margin: 0 0 0.9rem; }
+  li { margin-bottom: 0.4rem; }
+  .meta { color: var(--muted); font-size: 0.9375rem; margin-bottom: 1.5rem; }
+  .summary { background: var(--card); border: 1px solid var(--line); border-radius: 1rem; padding: 1rem 1.25rem; margin: 1.5rem 0 0; }
+  .summary p { margin: 0; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9375rem; }
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <strong>Hum Together</strong>
+    <a href="https://www.phanisaimunipalli.me/">phanisaimunipalli.me</a>
+  </div>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective November 22, 2026</p>
+
+  <p>Hum Together lets two people share songs with each other. It is made by Phani Sai Ram Munipalli, who is the only person behind it. This page explains in plain words what the app keeps, where it keeps it, and who can see it.</p>
+
+  <div class="summary">
+    <p><strong>The short version.</strong> There is no account, no name, no email, no phone number, no ads and no tracking. Your songs go to your partner through Apple's iCloud and nowhere else.</p>
+  </div>
+
+  <h2>What stays on your phone</h2>
+  <ul>
+    <li>Your pair code and a private ID for this phone.</li>
+    <li>Which music app you chose.</li>
+    <li>The last song your partner sent, with its cover image.</li>
+    <li>Which songs you have liked.</li>
+  </ul>
+  <p>The Hum widget and the Share sheet on your phone read this so they can work without opening the app.</p>
+
+  <h2>What is stored in iCloud</h2>
+  <p>To get songs from one phone to the other, Hum stores a small record for each pair in the app's CloudKit database, which Apple runs. For each pair it holds:</p>
+  <ul>
+    <li>The pair code.</li>
+    <li>An anonymous ID for each of the two people. This is the random identifier iCloud gives your Apple Account for this app. It does not contain your name or email. If iCloud is not available, the app makes up a random ID instead.</li>
+    <li>The songs each person sends: title, artist, a link to the cover image, links to the song in each music app, the time it was sent, and the mood tag if you chose one.</li>
+    <li>Likes: which song was liked, its title, and when.</li>
+  </ul>
+
+  <h2>Who can see it</h2>
+  <p>Your partner can see what you send, and you can see what they send. The records are anonymous, so I cannot tell who you are from them. I can open the database for support and to keep the app working, and I use it for nothing else.</p>
+  <p>The pair code works like a shared key. Anyone who knows your code can join a pair that has a free place, and can read the songs in it. Only give your code to your partner.</p>
+
+  <h2>Other services the app talks to</h2>
+  <p>When you share a song, the app asks the music service that the link belongs to (Spotify, Apple Music or YouTube Music) for its title, artist and cover, using the link you shared. The 30 second preview uses Apple's public song search with the song title and artist. These requests carry the link or search words and your phone's network address, the same as any web request. I send these services nothing else about you, and their own privacy policies apply to what they do.</p>
+
+  <h2>Notifications</h2>
+  <p>If you allow them, Hum shows a banner when your partner sends a song or likes one of yours. Banners are delivered by Apple's push service through iCloud. You can turn them off at any time in Settings, then Notifications, then Hum Together.</p>
+
+  <h2>What I do not do</h2>
+  <ul>
+    <li>No ads and no analytics.</li>
+    <li>No tracking across apps or websites.</li>
+    <li>No outside code libraries that collect data.</li>
+    <li>No selling or sharing your data.</li>
+  </ul>
+
+  <h2>Keeping and deleting your data</h2>
+  <p>Your data stays for as long as your pair exists. When you unpair in the app, your place in the pair and the pairing saved on your phone are removed. Songs you sent and likes may stay in iCloud after that. To have everything for your pair deleted, email me the pair code and I will remove it within 30 days. Deleting the app removes what is stored on your phone.</p>
+
+  <h2>Children</h2>
+  <p>Hum Together is not made for children under 13 and I do not knowingly collect information from them.</p>
+
+  <h2>Your rights</h2>
+  <p>Wherever you live, you can ask me what is stored for your pair, ask for a copy, or ask for it to be deleted. Email me and I will reply.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, I will update this page and the date at the top.</p>
+
+  <footer>
+    <p>Questions about privacy: <a href="mailto:phanisaimunipalli@gmail.com">phanisaimunipalli@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
